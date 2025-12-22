@@ -1,68 +1,70 @@
-# Sharing content on Mesi platform
+---
+title: "Sharing Content"
+description: "How to upload, group, and monetize content types on the Mesi platform."
+---
 
-On Mesi, **everyone can share their content**. You can be a creator and a fan at the same time with just one account.&#x20;
+On Mesi, **everyone can share their content**. You can be a creator and a fan at the same time with just one account.
 
-When you upload content to Mesi, it **automatically turns into an NFT for free**. This is possible because of the [Creator Chain](../technology-and-backend/creator-chain-and-proof-of-stake-pos.md) - the blockchain technology behind the platform.
+When you upload content to Mesi, it **automatically turns into an NFT for free**. This is made possible by the [Creator Chain](/technology-and-backend/creator-chain-and-proof-of-stake-pos) — the blockchain technology powering the platform. Mesi NFTs can be bought, sold, and traded in a unique digital marketplace.
 
-Mesi NFTs can **be bought, sold, and traded.** This creates a unique digital marketplace where everyone can take part and make money.&#x20;
+## 7 Content Types
 
-## 7 content types
+The Mesi platform supports seven distinct content formats:
 
-The Mesi platform lets you share seven different kinds of content:
-
-* **Images:** Just like any pictures you’d share anywhere else.
-* **Vibes:** Fun, short videos to share cool moments, creative ideas, or stories. Everyone on Mesi can see these.
-* **Moments:** Quick photo or video updates that show highlights of your day. Only your fans can see these.
-* **Music:** If you make music or are part of a record label, you can upload songs and albums to earn money. You can also use the Mesi Music Creator to produce and enhance your music with ease.&#x20;
-* **Podcasts:** Share audio recordings about stories, interviews, lessons, or anything else you want to talk about. You can record, edit, and post episodes right on the platform.
-* **Memes & Emojis:** Design your own funny memes or custom emojis.&#x20;
-* **Sound Clips:** Short sound clips like beats, tunes, or fun noises.
+* **Images:** High-quality photos and digital art.
+* **Vibes:** Public short-form videos for creative ideas and stories.
+* **Moments:** Exclusive photo or video updates visible only to your fans.
+* **Music:** Upload songs and albums or use the **Mesi Music Creator** to produce and enhance audio.
+* **Podcasts:** Record, edit, and post audio episodes directly on the platform.
+* **Memes & Emojis:** Custom funny memes or personalized emoji sets.
+* **Sound Clips:** Short audio assets like beats, loops, or sound effects.
 
 ## Collections
 
-You can group your content into a collection that shows up as a separate section in your gallery (like "Top Picks from 2024"). Collections are a way to organize your work, but they aren’t NFTs or single pieces of content.
+Collections allow you to organize your work into specific categories (e.g., "Top Picks from 2024"). 
 
-Key Points:
+<Info>
+  **Note:** Collections are organizational tools for your gallery; they are not NFTs themselves, though the content within them is.
+</Info>
 
-* One piece of content can be part of more than one collection.
-* Collections make it easier for people to find and enjoy related content.
+* One piece of content can belong to multiple collections.
+* Collections improve discoverability for fans browsing your profile.
 
-<figure><img src="../.gitbook/assets/Sharing content - Collections v3.png" alt=""><figcaption></figcaption></figure>
+<Frame caption="Organizing content via Collections">
+  <img src="../.gitbook/assets/Sharing content - Collections v3.png" alt="Collections View" />
+</Frame>
 
 ## Surprises
 
+Surprises are special content pieces hidden behind a 'question mark' icon. They can be public or fan-exclusive. To reveal a surprise, users must meet specific conditions you define.
 
+* **Trading:** Surprises can be traded while locked. However, the new owner must still meet the conditions to open it.
+* **One-Time Unlock:** Once a surprise is opened, it is no longer an NFT and cannot be traded further. It remains in the owner's "unlocked surprises" section.
 
-<div><figure><img src="../.gitbook/assets/Profile Surprise (3).png" alt="" width="197"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Profile Surprise 2 (2).png" alt="" width="197"><figcaption></figcaption></figure></div>
+<ResponseField name="Unlock Mechanisms">
+  <div className="flex gap-2">
+    <img src="../.gitbook/assets/Profile Surprise (3).png" alt="Surprise Lock" width="200" />
+    <img src="../.gitbook/assets/Profile Surprise 2 (2).png" alt="Surprise Unlock" width="200" />
+  </div>
+</ResponseField>
 
-'Surprises are special content shown in your gallery with a ‘question mark’ icon. They can be public or just for your fans, depending on what you choose. To see a surprise, people have to meet certain conditions that you set.
+### Task-Based Conditions
+You can require fans to complete specific actions:
+* **Influence:** Assign a set amount of influence points to your gallery.
+* **Payment:** Pay a specific price to unlock.
+* **Subscription:** Require an active subscription to your profile.
+* **Demographics:** Meet criteria such as age, location, or gender.
 
-Surprises can still be traded while they are locked. But if the new owner doesn’t meet the conditions, they won’t be able to open it.
+### Trigger-Based Conditions
+Set "smart" triggers that reveal content automatically:
+* **Future Date:** Unlock on a specific date (e.g., a "time capsule" post).
+* **Follower Threshold:** Unlock when you reach a milestone (e.g., 1 million followers).
+* **Spending Milestone:** Reveal when a user reaches a total spend limit (e.g., $1,000).
 
-Surprises are **only unlocked once**. After being opened, they’re no longer NFTs and can’t be traded anymore. They’ll stay in the 'unlocked surprises' section of the owner’s account.
+## Flexible Formats
 
-## Task-Based Unlock Conditions
+Unlike many platforms that force a specific aspect ratio, Mesi supports both **horizontal and vertical** formats. This gives creators full artistic freedom over their cinematography and photography.
 
-Here are some ways you can let people unlock your surprises:
-
-* Assign a certain amount of influence points to your gallery.
-* Make a payment.
-* Subscribe to your account.
-* Meet personal criteria, like age, location, or gender.
-* A mix of the above.
-
-## **Trigger-Based Unlock Conditions**
-
-You can also set events or triggers for surprises to stay hidden until certain things happen. For example:
-
-* **Future Date**: The surprise unlocks on a specific date, like one year later.
-* **Follower Threshold**: It becomes available when you hit a certain number of followers (e.g., 1 million)&#x20;
-* **Purchase Milestone**: It reveals itself when someone spends a set amount (e.g., $1,000)
-
-You can adjust these conditions to fit your ideas.
-
-## Flexible formats
-
-Mesi supports both horizontal and vertical formats, unlike most platforms that only allow vertical. This gives creators more freedom in how they shoot and share content.
-
-<figure><img src="../.gitbook/assets/Group 49.png" alt=""><figcaption></figcaption></figure>
+<Frame>
+  <img src="../.gitbook/assets/Group 49.png" alt="Format support" />
+</Frame>
