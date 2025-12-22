@@ -1,66 +1,77 @@
-# Brand Accounts & Communities
+---
+title: "Brand Accounts & Communities"
+description: "Structured ways for organizations and fan groups to engage, reward, and interact within the Mesi ecosystem."
+---
 
-Mesi platform features Brand Accounts and Communities - features designed for brands and users to engage on the platform in structured and purposeful ways.
+Mesi provides dedicated structures for professional organizations and thematic fan groups to thrive through **Brand Accounts** and **Tokenized Communities**.
 
-<figure><img src="../.gitbook/assets/Brand profile.png" alt="" width="197"><figcaption></figcaption></figure>
+<Frame caption="Brand Profile Interface">
+  <img src="../.gitbook/assets/Brand profile.png" alt="Brand Profile" width="197" />
+</Frame>
 
 ## Brand Accounts
 
-Brand Accounts are a specialized account type for verified organizations, companies, studios, product lines, and agencies.
+Brand Accounts are verified profiles for organizations, studios, and agencies. They are designed for professional participation and advertising rather than individual content creation.
 
-These accounts offer businesses a way to participate in the Mesi ecosystem with tailored permissions:
+### Key Rules & Permissions
+To maintain the platform's user-driven nature, Brand Accounts operate under specific constraints:
+* **Verification:** Must pass a mandatory **Know-Your-Business (KYB)** process.
+* **Advertising:** Full access to Mesi’s central ad engine to run global campaigns.
+* **Engagement:** Can host quizzes, polls, and post official updates.
+* **Exclusions:** Cannot receive engagement rewards, participate in Train2Earn, or upload personal/surprise content.
 
-* Cannot receive engagement rewards or participate in Train2Earn.
-* Cannot upload personal content or surprises.
-* Can run ads via Mesi’s central ad engine.
-* Can post content, open public communities, and host quizzes or polls.
-* Must pass Know-Your-Business (KYB) verification to operate.
+---
 
-Brand Accounts are primarily designed for advertisers and organizational participation without compromising the user-driven nature of the platform.
+## Communities
+**Tokenized thematic spaces for creators and fans.**
 
-## Communities (Like Discord Groups, but Tokenized)
+Communities on Mesi function similarly to Discord servers but are natively integrated into the blockchain. They allow users to gather around shared interests like *Lo-fi Beats*, *AI Art*, or *Underground Techno*.
 
-<figure><img src="../.gitbook/assets/Community 2.png" alt="" width="197"><figcaption></figcaption></figure>
+<Frame caption="Community Interface">
+  <img src="../.gitbook/assets/Community 2.png" alt="Community Page" width="197" />
+</Frame>
 
-Communities on Mesi function similarly to Discord groups. They are user-lead thematic spaces where fans and creators gather around shared interests — such as Lo-fi Beats Radio, AI Girl Cosplay, or Underground Techno Europe.
+### Community Features
+* **Open Creation:** Any user can start a community (not limited to creators).
+* **Governance:** Admins can define flexible permissions and access thresholds (KYF).
+* **Rich Interaction:** Dedicated timelines, featured content sections, and reward campaigns.
 
-### Key features of Communities:
+---
 
-* Can be created by **any user**, not just creators.
-* Each community has one or more admin roles with flexible permissions.
-* Communities include dedicated pages with timelines, featured content, polls, and reward campaigns.
-* Admins can define KYF access thresholds and engagement criteria for participation.
+## Community Reward Mechanics
 
-## Community Rewards Mechanics
+Communities utilize a **Community Pool** funded by member deposits to incentivize high-quality engagement.
 
-<figure><img src="../.gitbook/assets/Communities.png" alt=""><figcaption></figcaption></figure>
+<Steps>
+  <Step title="Engagement">
+    Earn $MESI tokens by liking, commenting, and sharing community-specific posts.
+  </Step>
+  <Step title="Participation">
+    Join mini-campaigns such as trivia contests, surveys, and market research games.
+  </Step>
+  <Step title="Boosting">
+    Lock $MESI tokens within the community to increase your influence and reward weight.
+  </Step>
+</Steps>
 
-Community members can earn $MESI tokens through:
+<Frame caption="Visualizing Community Reward Flows">
+  <img src="../.gitbook/assets/Communities.png" alt="Community Mechanics" />
+</Frame>
 
-* Liking, commenting, and sharing community posts
-* Participating in quizzes, surveys, or games
-* Locking $MESI to boost their community influence
+---
 
-Rewards come from the **Community Pool**, built from members’ deposits. Admins (or any member) can launch mini-campaigns via the Mesi-native dashboard:
+## Ad-Free Mode ($MESI Token Burn)
 
-* Trivia contests
-* Surveys/market research
-* Giveaways
+Mesi introduces a deflationary utility for the $MESI token through the **Ad-Free mechanism**. Any member, admin, or sponsor can burn tokens to improve the community experience.
 
-All community members must meet basic KYF and activity thresholds to receive payouts.
+| Feature | Benefit |
+| :--- | :--- |
+| **Duration** | Disables ads within a specific community for 30 days. |
+| **Engagement Boost** | Burning tokens grants the user a weight boost in that community for 7 days. |
+| **Versatility** | This mechanism can also be applied to individual user galleries. |
 
-<figure><img src="../.gitbook/assets/Community Rewards Mechanics.png" alt=""><figcaption></figcaption></figure>
 
-## Ad-Free Mode (Powered by $MESI Token Burn)
 
-Users can burn $MESI tokens to disable ads within specific communities:
-
-* Ad-free for 30 days per community
-* Can be burned by any community member, admin, or sponsor
-* Burning slightly boosts the user’s engagement weight in that community for 7 days
-
-This mechanism applies to individual user galleries as well.
-
-<br>
-
-<br>
+<Frame>
+  <img src="../.gitbook/assets/Community Rewards Mechanics.png" alt="Reward Payouts" />
+</Frame>
