@@ -1,40 +1,37 @@
-# Mission & core values
+---
+title: "Mission & Core Values"
+description: "Our vision for the future of the creator economy and the principles that drive the Mesi ecosystem."
+---
 
-Mesi App envisions becoming the number one platform choice for content creators and the first truly mass-adopted crypto service offering a revolutionary Web3-powered platform tailored to the needs of artists, performers, and influencers.
+Mesi envisions becoming the premier platform for content creators and the first truly mass-adopted crypto service. We offer a revolutionary Web3-powered ecosystem tailored specifically to the needs of artists, performers, and influencers.
 
-We prioritize establishing deep, personal connections with our content creators to foster a strong sense of community and self-sovereignty and utilizing advanced AI technology to enrich user experiences and unlock innovative possibilities for content creation.
+<Frame caption="The Mesi Mission">
+  <img src="../.gitbook/assets/Mesi mission.png" alt="Mesi Mission and Values" />
+</Frame>
 
-Operating on our native blockchain, our platform will ensure a secure and efficient economy, especially by providing content creators with profitable opportunities and an easy off-ramp solution for utilizing their income in the traditional money world.
+## Our Vision
+We prioritize deep, personal connections to foster community and self-sovereignty. By leveraging advanced AI and our native blockchain, we provide creators with profitable opportunities and seamless off-ramps to the traditional financial world.
 
-As an organization, Mesi envisions being the creative hub for talented individuals, providing opportunities for their creativity to flourish and reach a wider audience.
+## Core Values
 
-Our product is based on following core values, fueling development, and the broader mission behind developing our product.
+### Integrating Blockchain & Ownership
+We bridge the gap between blockchain and the creator economy. By using NFTs and our native token, we establish clear rules for content monetization and ownership. This approach ensures transparency and permanent records for all transactions, deposits, and tipping.
 
+### Facilitating Instant Transactions
+Mesi eliminates the long payout cycles of traditional platforms.
+* **Instant Payouts:** Users can claim $MESI tokens at any time via treasury smart contracts.
+* **Flexibility:** Convert tokens to other cryptocurrencies, stablecoins, or fiat via external platforms or the Mesi payment card.
 
+### Tokenized Interactions
+Most features within the Mesi app are tokenized or linked to the native token. This commitment to tokenization—using both fungible tokens and NFTs—enhances the quality of social interactions and platform utility.
 
-<figure><img src="../.gitbook/assets/Mesi mission.png" alt=""><figcaption></figcaption></figure>
+### Gamified User Experience
+We believe in an engaging ecosystem. Both creators and fans can participate in competitive activities, strategizing their behavior to gain better visibility and optimize their benefits within the Mesi ecosystem.
 
-## Integrating Blockchain into the Creator Economy
+### Innovation & AI
+Generative AI is integral to our strategy. We incorporate the latest technological advancements to enhance content creation and user engagement, ensuring creators have the most powerful tools at their fingertips.
 
-One of Mesi's primary goals is the comprehensive integration of blockchain technology with the creator economy. This encompasses the use of NFTs for establishing clear rules for content monetization and ownership transfers. Additionally, our focus extends to the utilization of a native token, enhancing the platform's functionality through tokenization.  This approach guarantees transparency and the permanence of records, spanning an array of activities such as transactions, deposits, withdrawals, and tipping.
-
-## Facilitating Instant Transactions
-
-By utilizing our native token for withdrawals, Mesi offers instant payouts. Users can claim Mesi tokens at any time, with immediate coverage from a treasury smart contract. These tokens can then be converted to other cryptocurrencies, stablecoins, or fiat currencies using external platforms or Mesi's payment card.
-
-## Tokenizing Interactions and Features
-
-We are committed to enhancing the user experience and the quality of social platforms through the tokenization of interactions and features, employing both fungible tokens and NFTs. Consequently, most features of the Mesi app will be tokenized or linked to our native Mesi token in some way.
-
-## Gamifying User Experience
-
-We believe in making the user experience engaging and enjoyable. Therefore, all Mesi users, including creators and fans, will have opportunities to engage in competitive activities, strategize their interactions and behavior to gain better position and visibility within MESI ecosystem positioning and optimize their benefits.
-
-## Focus on Innovation and AI
-
-Innovation and AI are integral to our business strategy. Mesi is dedicated to incorporating the latest technological advancements, particularly generative AI, into our app, enhancing user engagement and content creation.
-
-## Safeguarding Creators' Interests
-
-The creator’s interests should be protected, and Mesi ensures that this is being done effectively. We ensure that whenever needed, fans need to go through the KYC process and that creators have control over the level of verification their fans must go through. They will even be able to request to know the identity of their fans first before allowing them to see the exclusive content they share. Our AI models will be also trained to detect potential content duplication and provide an extra layer of protection against copyright infringement within our platform.\
-<br>
+### Safeguarding Creators
+Protecting creator interests is a core priority:
+* **Verification:** Creators can set the level of KYC required for fans and can even request identity verification before granting access to exclusive content.
+* **Copyright Protection:** Our proprietary AI models detect potential content duplication to prevent copyright infringement within the platform.
