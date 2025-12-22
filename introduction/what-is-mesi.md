@@ -1,17 +1,26 @@
-# What is Mesi?
+---
+title: "What is Mesi?"
+description: "An overview of the Mesi platform and its mutual monetization model."
+---
 
-Mesi connects creators, influencers, artists, and performers with their fans through a novel **mutual monetization model**, allowing both sides (fans and creators) to participate in content monetization and rewards.\
-\
-The platform is accessible as both a **web app** and a **mobile app** (iOS and Android) and uses its blockchain - **Creator Chain** along with the **$MESI token**.
+Mesi connects creators, influencers, artists, and performers with their fans through a novel **mutual monetization model**, allowing both sides to participate in content monetization and rewards.
 
-The more traffic (visits, comments, transactions, etc.) creators generate the higher their **Engagement Rating** and subsequently - rewards received. Fans can boost their favorite creators' popularity (and hence - earnings) using Influence Points earned by holding $MESI tokens.
+The platform is accessible as both a **web app** and a **mobile app** (iOS and Android). It operates on its own blockchain, the **Creator Chain**, and utilizes the native **$MESI token**.
 
-With Mesi, creators can **sell their content**, enabling fans to trade and own pieces of their work. Owning specific content entitles fans to a share of its creator's gallery earnings and rewards
+## Engagement and Rewards
+The more traffic (visits, comments, transactions, etc.) creators generate, the higher their **Engagement Rating** and subsequent rewards. Fans can boost their favorite creators' popularity using **Influence Points** earned by holding $MESI tokens.
 
-Unlike traditional platforms, Mesi allows **content trading**, meaning creators can put up their content for sale, owning a content piece entitles fans to participate in a portion of the creator’s gallery earnings and rewards (based on the engagement rating of that particular piece in the entire creator’s gallery).&#x20;
+## Content Trading
+Unlike traditional platforms, Mesi allows **content trading**:
+* Creators can put up their content for sale.
+* Owning a piece of content entitles fans to a portion of the creator’s gallery earnings.
+* Rewards are calculated based on the engagement rating of that specific piece within the creator’s gallery.
 
-Creators can use features like **AI tools** for content creation and optimization, **micro-loans**, and **ad controls** to manage the frequency with which ads appear on their content.\
-\
-Mesi also lets creators promote their content and profiles **outside the app** using an **affiliate marketing network**. They can bid for global ad traffic and pay with fiat, USDC, or $MESI tokens. Affiliates go through a vetting process and are required to lock received payments as a guarantee. If they break advertising rules, their locked tokens may be penalized.<br>
+## Creator Tools and Affiliate Network
+Creators have access to **AI tools** for creation, **micro-loans**, and **ad controls** to manage frequency.
 
-<figure><img src="../.gitbook/assets/What is Mesi.png" alt=""><figcaption></figcaption></figure>
+Mesi also enables promotion **outside the app** via an **affiliate marketing network**. Creators can bid for global traffic using fiat, USDC, or $MESI tokens. Affiliates are vetted and must lock payments as a guarantee; breaking rules results in token penalties.
+
+<Frame caption="Overview of the Mesi Ecosystem">
+  <img src="../.gitbook/assets/What is Mesi.png" alt="What is Mesi" />
+</Frame>
