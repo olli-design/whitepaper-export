@@ -1,55 +1,76 @@
-# Music artists on Mesi
+---
+title: "Music Artists on Mesi"
+description: "A comprehensive guide for music creators to distribute, monetize, and protect their work using Mesi."
+---
 
-## Mesi for Music Artists
+Mesi is an all-in-one ecosystem for music creators to **distribute**, **advertise**, and **monetize** their tracks—both within the Mesi app and across major external streaming platforms.
 
-<figure><img src="../.gitbook/assets/Music artist profile.png" alt="" width="197"><figcaption></figcaption></figure>
+<Frame caption="Music Artist Profile Interface">
+  <img src="../.gitbook/assets/Music artist profile.png" alt="Music artist profile" width="200" />
+</Frame>
 
-Mesi is an all-in-one platform for music creators to **distribute**, **advertise**, and **monetize** their music—both inside the Mesi app and across major external platforms.
+## How it Works
+Every track uploaded to Mesi automatically becomes a **Music NFT**, unlocking advanced monetization and fan engagement tools:
+* **Upload & Share:** Distribute existing hits or exclusive "never-before-heard" tracks.
+* **Mesi Music Creator:** Use built-in tools to produce and polish new tracks directly on-platform.
 
-Here’s how music artists can use Mesi:
+### Generating Value from Music NFTs
+Music NFTs offer three distinct revenue streams:
 
-* Upload existing songs or share never-before-heard tracks.
-* Create new music using the Mesi Music Creator.
-* Every uploaded track becomes an NFT by default, unlocking powerful monetization and engagement options.
+1. **Engagement Rewards:** Earn $MESI tokens based on fan interactions. These rewards flow to the current NFT owner.
+2. **Licensing Fees:** Artists set their own terms for re-use (e.g., as background music for "Vibes"). **License fees always go to the original creator**, even after the NFT is sold.
+3. **Secondary Sales:** Trade NFTs on the marketplace to unlock immediate liquidity while transferring future engagement rewards to the buyer.
 
-### Tradable music NFTs
+---
 
-All tracks become tradable NFTs, offering two key ways to generate value:
+## Global Distribution & Payouts
 
-* **Engagement Rewards** Music NFTs earn $Mesi token rewards based on how much fans interact with them. These rewards go to the current owner of the NFT.
-* **Licensing Fees**: Uploaded tracks can be reused as background music or content. Artists choose whether to allow free access or charge a license fee- fees always go to the original creator, even after resale.
-* **Secondary sales**: Creators or secondary owners can also sell their music NFTs at any time, transferring the right to earn engagement rewards to the new owner in exchange for additional revenue.&#x20;
+### One-Click External Distribution
+Maximize your reach without the administrative headache. Mesi allows you to distribute tracks to major external platforms with a single click. Our backend automatically handles:
+* Metadata and audio formatting.
+* Cross-platform revenue logistics.
+* Real-time performance analytics via your live dashboard.
 
-### Licensing Fees (For Creator)&#x20;
+### Earnings & Payouts
+Music earnings follow a specialized monthly payout cycle to ensure accuracy across external platforms.
 
-As explained in the [Content Monetization & Rewards](https://mesi-1.gitbook.io/whitepaper/introduction/content-monetization-and-rewards), uploaded tracks can be used by others for creating content, like background music for stories.\
-\
-Music artists can decide if their tracks should be free (to increase engagement) or if they should have a licensing fee. The license fees always go to the original creator (even if the NFT is sold)
+<Tip>
+  **The 10% Bonus:** While you can choose to be paid in USDC, creators who select **$MESI** for their payouts receive a **10% bonus** on their total earnings.
+</Tip>
 
-### One-click external distribution
+**Flexible Access:** Withdraw funds directly to your bank account or spend them instantly using the **Mesi Debit Card**.
 
-To help artists maximize reach without added complexity, Mesi allows users to distribute tracks to major platforms beyond Mesi with one click. Mesi’s backend handles metadata, audio formatting, and revenue logistics.
+<Frame>
+  <img src="../.gitbook/assets/Earning & Payouts.png" alt="Earnings Dashboard" />
+</Frame>
 
-### **Earnings & Payouts**
+---
 
-With a live dashboard, artists can easily monitor how their tracks are performing across platforms and see where their audience is most active.
+## Exclusive Artist Tools
 
-Music earnings are paid out on a monthly basis - an exception to Mesi’s standard model, where most other earnings can be claimed instantly. Creators can choose to receive their payouts in USDC or $MESI. Those who select $MESI receive a 10% bonus, offering extra value for supporting the platform’s ecosystem.
+Mesi provides a suite of advanced AI and blockchain tools designed specifically for the modern musician.
 
-Withdrawals are simple - funds can be sent directly to a linked bank account or used immediately through the Mesi debit card, giving artists quick and flexible access to their money.
+<CardGroup cols={2}>
+  <Card title="Soulbound Tokens" icon="certificate">
+    Permanent NFTs for VIP perks, exclusive fan tiers, and loyalty programs.
+  </Card>
+  <Card title="Collectible Series" icon="layer-group">
+    Gamify your releases by letting fans collect tracks to unlock bonus content.
+  </Card>
+  <Card title="Music Easter Eggs" icon="egg">
+    Hide secret remixes or messages that only unlock via specific conditions.
+  </Card>
+  <Card title="AI Text-to-Song" icon="microchip">
+    Turn lyrics into music using your own voice or AI-generated models.
+  </Card>
+  <Card title="Voice Cover Tool" icon="microphone-lines">
+    Generate original songs or AI-powered covers using your recorded voice profile.
+  </Card>
+  <Card title="Artist Analytics" icon="chart-mixed">
+    Deep-dive tracking for clicks, conversions, and campaign performance.
+  </Card>
+</CardGroup>
 
-<figure><img src="../.gitbook/assets/Earning &#x26; Payouts.png" alt=""><figcaption></figcaption></figure>
-
-## Exclusive Features for Music Artists
-
-Mesi offers additional features tailored specifically for music creators:
-
-* **Soulbound Tokens**: Permanent NFTs linked to a fan’s wallet—ideal for VIP perks, exclusive content, and loyalty programs.
-* **Collectible Series**: Let fans complete albums by collecting NFTs to unlock bonus tracks or behind-the-scenes content.
-* **NFT Music Easter Eggs**: Hidden extras (remixes, messages, secret content) unlocked by conditions like location, time, or engagement.
-* **Text-to-song**: Turn written lyrics into music using your own voice or AI voices. Control tempo, style, and tone.
-* **Voice Cover Tool**: Use your recorded voice to generate original songs or create AI-powered covers of known tracks.
-* **Affiliate Marketing:** Built-in tools to promote music beyond Mesi.
-* **Analytics Tools**: Advanced tracking for clicks, conversions, and campaign performance.Use your recorded voice to generate original songs or create AI-powered covers of known tracks.
-
-<figure><img src="../.gitbook/assets/Mesi for music artists (1).png" alt=""><figcaption></figcaption></figure>
+<Frame>
+  <img src="../.gitbook/assets/Mesi for music artists (1).png" alt="Mesi Artist Features Overview" />
+</Frame>
