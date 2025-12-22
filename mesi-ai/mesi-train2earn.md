@@ -1,57 +1,102 @@
-# Mesi Train2Earn
+---
+title: "Mesi Train2Earn"
+description: "Contribute to AI development and earn tradeable NFT tickets, $MESI tokens, and exclusive perks."
+---
 
-<figure><img src="../.gitbook/assets/Train2Earn pop-up.png" alt="" width="197"><figcaption></figcaption></figure>
+**Train2Earn** is Mesi’s opt-in incentivized contribution program. It allows creators and fans to participate in training the platform’s AI systems. By providing high-quality data and feedback, users earn rewards and governance-level perks within the ecosystem.
 
-**Train2Earn** is Mesi’s opt-in program that lets users (creators and fans) contribute to training the platform’s AI systems. In return, participants earn rewards such as $MESI tokens and exclusive access to rewards and perks.
+<Frame caption="Participating in a Train2Earn prompt">
+  <img src="../.gitbook/assets/Train2Earn pop-up.png" alt="Train2Earn Interface" width="200" />
+</Frame>
 
-The system is built around **consent**, **transparency,** **quality control**, **and fairness** - ensuring that both data contribution and reward distribution happen in a secure and gamified way.
+The system is built on four pillars: **Consent**, **Transparency**, **Quality Control**, and **Fairness**.
 
-## Key Principles
+## Core Principles
 
-| Principle              | Implementation                                                                    | Outcome                                          |
-| ---------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------ |
-| **Informed Consent**   | Users choose whether to join via in-app prompt; all scopes are clearly described. | User trust & legal compliance.                   |
-| **Reward Incentives**  | Earn $MESI and perks tied to contribution quality.                                | Higher-quality data, more engagement.            |
-| **Anti-Abuse Filters** | KYC, anomaly filters, human audits.                                               | Protection from spam, Sybil, or poisoned inputs. |
-| **Transparency**       | Training stats, public audits, flagged behavior logic.                            | Platform accountability.                         |
+| Principle | Implementation | Outcome |
+| :--- | :--- | :--- |
+| **Informed Consent** | Granular opt-in via in-app prompts with clear data scopes. | User trust & regulatory compliance. |
+| **Reward Incentives** | $MESI tokens and exclusive perks tied to contribution quality. | High-quality data & user retention. |
+| **Anti-Abuse** | KYC verification, anomaly filters, and human-in-the-loop audits. | Protection against Sybil and bot attacks. |
+| **Transparency** | Publicly accessible training stats and audit logs. | Platform accountability. |
 
-<figure><img src="../.gitbook/assets/Train2Earn.png" alt=""><figcaption></figcaption></figure>
 
-## How It Works
 
-Once users opt in, the app may ask for their help in several ways:
+---
 
-* Answering questions from the AI (via message-style prompts).
-* Rating pictures or their current mood.
-* Completing short questionnaires or polls.
+## How it Works
 
-<figure><img src="../.gitbook/assets/Train2Earn 3.png" alt=""><figcaption></figcaption></figure>
+When you opt into a campaign, Mesi AI may request your assistance with various micro-tasks:
+* **Interactive Prompting:** Answering direct questions to refine AI intent.
+* **Sentiment Labeling:** Rating images or indicating your current mood to train the **FeelFlow** engine.
+* **Polls & Questionnaires:** Completing targeted surveys to help the AI understand niche trends.
 
-Each time there’s a new Train2Earn campaign, a limited group of users is selected. Everyone who completes their tasks properly receives a “**Ticket**”, which acts as proof of participation and gateway to the next phase: rewards.
+<Frame>
+  <img src="../.gitbook/assets/Train2Earn.png" alt="Train2Earn Workflow" />
+</Frame>
 
-## Earning Tickets & Rewards
+### The Lifecycle of a Ticket
 
-Ticket is first issued as a placeholder. Once a user's input passes quality checks, it becomes a **tradeable NFT ticket**.
 
-* These NFT tickets allow users to **join exclusive rewards**.
-* Prices vary per campaign: $MESI token packs (including long-term vesting prizes), promo credits, real-world items, and more.
-* The better users’ **Training Quality Score**, the more campaigns they can enter and the better their chances of winning.
 
-If preferred, they can **sell or trade their Ticket NFT** to other users on the Mesi marketplace -  especially if the campaign offers high-tier rewards like 100k $MESI, merchandise, or even rare promotional slots.
+Each campaign has a limited capacity. Participants who successfully complete tasks receive a **Ticket**, which serves as a Proof-of-Participation.
+
+<Steps>
+  <Step title="Placeholder Issued">
+    Upon task completion, a temporary placeholder is added to your account.
+  </Step>
+  <Step title="Quality Validation">
+    Mesi's automated filters and human auditors verify the accuracy and quality of your input.
+  </Step>
+  <Step title="NFT Minting">
+    Validated tickets are converted into **Tradeable NFT Tickets**.
+  </Step>
+  <Step title="Reward Access">
+    Use your NFT to enter reward pools or trade it on the Mesi Marketplace.
+  </Step>
+</Steps>
+
+---
+
+## Rewards & Marketplace
+
+Mesi NFT Tickets unlock access to diverse prize pools. Higher-tier campaigns may offer:
+* **$MESI Token Packs:** Including long-term vesting rewards.
+* **Platform Credits:** Promo credits for advertising or content boosts.
+* **Real-World Items:** Merchandise, event tickets, or hardware.
+
+**Secondary Market:** If you don't wish to wait for a campaign's conclusion, you can sell your Ticket NFT to other users. High-tier tickets (for campaigns with large $MESI pools) often carry significant secondary market value.
+
+---
 
 ## Training Quality Score (TQS)
 
-Consistent, high-quality contributions increase your score. A higher TQS gives you access to more campaigns and better rewards., this is ensured by:
+Your **TQS** is a dynamic reputation metric that determines your eligibility for premium campaigns.
 
-* **Automatic Filters** - These detect suspicious behavior (e.g., copy-paste patterns, bot-like timing, mass uploads).
-* **Manual Reviews** (HITL) - Human staff periodically review samples, flag edge cases, and remove harmful or misleading entries.
-* **Trust Score Decay** - If their account triggers too many flags or breaks the rules, their score drops and they may be excluded from future campaigns or lose reward eligibility.
+<CardGroup cols={2}>
+  <Card title="Automatic Filters" icon="filter">
+    Detects suspicious patterns such as bot-like timing, copy-paste inputs, or mass automated uploads.
+  </Card>
+  <Card title="Human-in-the-Loop" icon="user-check">
+    Periodic manual reviews ensure that edge cases are handled fairly and harmful data is purged.
+  </Card>
+  <Card title="Trust Score Decay" icon="chart-line-down">
+    Violating rules or triggering multiple flags will lower your TQS, restricting access to future rewards.
+  </Card>
+  <Card title="TQS Benefits" icon="trophy">
+    A high score unlocks early access to limited-run campaigns and better winning odds in reward pools.
+  </Card>
+</CardGroup>
 
-## Compliance Safeguards
+---
 
-Train2Earn was designed with privacy and legal safety in mind:
+## Compliance & Safeguards
 
-* **Opt-in model** meets global data regulations (e.g. GDPR, PDPA).
-* **Rewards are merit-based**, not purely chance-based.
-* **All participants complete KYC**, reducing risk of Sybil and spam.
-* **Tickets are NFTs**, not lottery entries, for regulatory flexibility.<br>
+Train2Earn is engineered for global regulatory standards:
+* **Privacy First:** The opt-in model is fully compliant with GDPR and PDPA data regulations.
+* **Verified Participation:** Mandatory KYC reduces the risk of spam and ensures rewards reach real users.
+* **Legal Framework:** Tickets are categorized as NFTs representing proof-of-work, providing a flexible regulatory structure.
+
+<Frame>
+  <img src="../.gitbook/assets/Train2Earn 3.png" alt="Train2Earn Dashboard" />
+</Frame>
