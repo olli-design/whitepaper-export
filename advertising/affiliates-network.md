@@ -13,7 +13,9 @@ The Affiliates Network Dashboard allows creators to:
 * Use Mesi AI Messaging Agent, which automates affiliate communication, including updates and offers.
 * Collect insights from **Mesi AI Engagement Agent**, which provides data-based recommendations to improve campaign performance, such as targeting demographics or determining promotion timing.
 
-<figure><img src="../.gitbook/assets/AI Affiliates network 2.png" alt=""><figcaption></figcaption></figure>
+<Frame caption="Ad Engine">
+  <img src="../.gitbook/assets/AI Affiliates network 2.png" />
+</Frame>
 
 ## Internal and External Affiliate Collaboration
 
