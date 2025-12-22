@@ -13,10 +13,6 @@
         "tab": "Whitepaper",
         "groups": [
           {
-            "group": "Welcome",
-            "pages": ["README"]
-          },
-          {
             "group": "Introduction",
             "pages": [
               "introduction/what-is-mesi",
