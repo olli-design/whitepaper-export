@@ -1,61 +1,93 @@
-# AI Generators
+---
+title: "AI Generators"
+description: "Transform ideas into professional-grade images, music, and memes using Mesi's integrated AI toolset."
+---
 
-Mesi AI Content Creation offers tools to help users turn ideas into creations. This includes generating or enhancing images, emojis, memes, music, and sound clips.
+Mesi AI provides a comprehensive suite of creative tools designed to simplify content production. Whether you are generating assets from scratch or enhancing existing media, these tools bridge the gap between imagination and execution.
 
-<figure><img src="../.gitbook/assets/AI Generators.png" alt=""><figcaption></figcaption></figure>
+<Frame>
+  <img src="../.gitbook/assets/AI Generators.png" alt="Mesi AI Content Suite" />
+</Frame>
 
-## Image creator
+## Image Creator
 
-<div><figure><img src="../.gitbook/assets/Create image.png" alt="" width="197"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Create image 2.png" alt="" width="197"><figcaption></figcaption></figure></div>
+Generate high-fidelity visuals using voice, text, or reference images from your gallery.
 
-You can use AI to create images from:
+### Key Capabilities
+* **Prompt-to-Image:** Create visuals from descriptive voice or text prompts.
+* **Image-to-Image:** Use existing photos to influence the pose, style, or composition of a new generation.
+* **Advanced Editing:** Swap backgrounds, refine facial features, modify outfits, or apply complex artistic filters (e.g., "Game of Thrones style").
 
-* your voice or text prompts
-* other images saved in your gallery
+<Warning>
+  **Identity & Compliance:** If you generate images of yourself or any human face, you **must** label your account as an **AI Account**. Failure to do so may result in rejected prompts or account sanctions for misleading users. [Learn more about Account Types](/path-to-real-vs-ai).
+</Warning>
 
-For example, you might say:
+<div className="flex gap-2">
+  <img src="../.gitbook/assets/Create image.png" alt="UI Step 1" width="200" />
+  <img src="../.gitbook/assets/Create image 2.png" alt="UI Step 2" width="200" />
+</div>
 
-_“Make a selfie using the pose and expression from these photos in my phone gallery. I want to wear winter clothes, with a mountain background (I’m uploading the exact image for it). Then, make it look like a Game of Thrones poster and add the text ‘Winter is Coming.’”_
+---
 
-In addition to generating new images, the AI **can** **enhance or edit existing photos**. It can:
+## Emojis & Memes Creator
 
-* Adjust the background
-* Refine selfies
-* Modify outfit details
-* Apply stylish visual effects
-* And more
+Create custom social assets to engage your community. You can generate content by:
+* Describing the humor or vibe via text/voice.
+* Uploading personal photos to turn into personalized stickers.
+* Modifying existing viral meme templates.
 
-Please note that if you generate photos of yourself (or basically any human/face) using images creator, you need to label your account as an AI account first, otherwise, your generation prompt will be rejected or you might be exposed to sanctions for misleading your user. Please refer to [Real vs AI accounts](https://docs.google.com/document/d/1j_1_GBLX02jDs8hRfUU0CSNB2oRfbSaex3oWP9c5-O0/edit?tab=t.stlbl8knsfb4) for more details.
+<div className="flex gap-2">
+  <img src="../.gitbook/assets/Create meme.png" alt="Meme Tool" width="180" />
+  <img src="../.gitbook/assets/Create meme details.png" alt="Meme Editing" width="180" />
+  <img src="../.gitbook/assets/Create meme posted.png" alt="Final Meme" width="180" />
+</div>
 
-## Emojis & Memes creator
-
-<div><figure><img src="../.gitbook/assets/Create meme.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Create meme details.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Create meme posted.png" alt=""><figcaption></figcaption></figure></div>
-
-Similarly to the Image Creator, this feature allows you to use AI to create custom memes and emojis. You can generate content from:
-
-* Saying or typing what you want.
-* Using pictures from your phone.
-* Starting with existing memes and emojis.
+---
 
 ## Music Creator
 
-<div><figure><img src="../.gitbook/assets/Music creator (2).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Music creator - Composer 5.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Create sounds.png" alt=""><figcaption></figcaption></figure></div>
+The Music Creator is a powerful workstation that integrates with the **Mesi Sound Clips Library**. It is designed for both beginners and professional artists.
 
-Music Creator is a fun and easy tool for making, editing, and improving music. It integrates with the **Mesi Sound Clips Library**, allowing you to add unique sounds and effects to your songs, such as beats, waves, or other audio effects.
+### Core Features
+<CardGroup cols={2}>
+  <Card title="AI Composition" icon="music">
+    Describe a style or mood to generate full tracks or specific instrumental layers.
+  </Card>
+  <Card title="Visual Scoring" icon="image">
+    Upload a photo, and the AI will compose a track inspired by the mood and visuals of the image.
+  </Card>
+  <Card title="Vocal Engineering" icon="microphone">
+    Add harmonies, correct pitch, and apply professional studio effects to vocal tracks.
+  </Card>
+  <Card title="Smart Mixing" icon="sliders">
+    Let the AI analyze your project to polish the final mix and master the track.
+  </Card>
+  <Card title="Drum/Chord Gen" icon="drum">
+    Automatically generate drum patterns and chord progressions based on your genre.
+  </Card>
+  <Card title="Pro Export" icon="download">
+    Export your work as high-quality WAV/MP3 files or as individual stems for further editing.
+  </Card>
+</CardGroup>
 
-<table><thead><tr><th width="263">Feature</th><th>Details</th></tr></thead><tbody><tr><td>AI Assistant</td><td>Type or speak to the tool to generate any music.</td></tr><tr><td>Write Your Own Song</td><td>Add your lyrics, choose a style (pop, jazz, rock, etc.), and select the type of vocals.</td></tr><tr><td>Turn Pictures into Music</td><td>Upload a photo, and the tool will create music inspired by the mood and visuals of the image.</td></tr><tr><td>Mood-Based Music Creation</td><td>Choose a mood (e.g., happy, calm, energetic) to generate music that aligns with your vibe.</td></tr><tr><td>Add Sounds</td><td>Use the Mesi Sound Clips Library to personalize music with beats, ambient soundscapes, etc.</td></tr><tr><td>AI-Generated Chord Progressions</td><td>Automatically generate chord progressions and melodies based on your chosen style.</td></tr><tr><td>Build Layers of Sound</td><td>Construct and refine layers of instruments, like basslines, lead synths, and percussion.</td></tr><tr><td>Generate Soundscapes and Atmospheres</td><td>Create ambient soundscapes for relaxation or background use.</td></tr><tr><td>Drum Pattern Generator</td><td>Automatically create drum patterns tailored to the style or mood of your song.</td></tr><tr><td>Enhance Vocals with AI</td><td>Add harmonies, correct pitch, and refine vocal recordings with professional effects.</td></tr><tr><td>Fix Your Mix</td><td>Let the AI analyze and polish your tracks for a smooth, professional sound.</td></tr><tr><td>Export Options</td><td>Save your work in formats like WAV, MP3, or stems for each instrument.</td></tr></tbody></table>
+<Frame caption="The Mesi Music Workstation">
+  <img src="../.gitbook/assets/Music creator (2).png" alt="Music Creator UI" />
+</Frame>
 
-#### Example use case
+> **Example Use Case:** > Susan uploads a photo of a "calm mountain view" and prompts the AI for "serene, soft winds." The tool generates a 1-hour ambient track, which Susan then uploads to Mesi as a **Music NFT** titled "Relaxing Mountain Sound."
 
-_Susan sees a peaceful mountain view and wants to create music that feels like that moment. She uploads a picture of the mountains, writes that it’s "calm and peaceful with soft winds," and picks the "serene" mood. The tool makes a track with soft sounds and gentle melodies that match her memory. She saves the clip as an MP4 called "Relaxing mountain sound (meditation, study, sleep) - 1h" and uploads it to Mesi as an NFT._
+---
 
-## Sound clip creator
+## Sound Clip Creator
 
-Creators can use AI prompts to make simple audio samples, for example:
+Generate short, high-quality audio samples and foley for your productions or the community library.
 
-* the sound of falling rocks, singing birds, wind, car engines, etc.&#x20;
-* bass beats, sound waves, specific frequency sounds, etc.&#x20;
-* instrument sounds&#x20;
-* custom audio effects
+* **Environmental:** Falling rocks, singing birds, wind, or engines.
+* **Musical:** Bass beats, synth stabs, and specific frequency waves.
+* **Foley:** Custom audio effects tailored to your video content.
 
-Once generated, they can work with Mesi AI or manually to adjust and improve the sounds and use them for their own purpose or upload to Mesi Sound Clips Library linked music creator, and set licensing fees for usage (or make them free).
+**Monetization:** Once created, you can upload clips to the **Mesi Sound Clips Library**. You can offer them for free to build your brand or set **licensing fees** for other creators to use them in their work.
+
+<div className="flex gap-2">
+  <img src="../.gitbook/assets/Create sounds.png" alt="Sound Creation" width="250" />
+</div>
