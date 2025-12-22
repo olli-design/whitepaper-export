@@ -7,134 +7,141 @@
     "light": "#4A4A4A",
     "dark": "#000000"
   },
-  "navigation": [
-    {
-      "group": "Welcome",
-      "pages": ["README"]
-    },
-    {
-      "group": "Introduction",
-      "pages": [
-        "introduction/what-is-mesi",
-        "introduction/mission-and-core-values",
-        "introduction/sharing-content-on-mesi-platform",
-        "introduction/content-monetization-and-rewards",
-        "introduction/music-artists-on-mesi",
-        "introduction/real-persona-and-ai-accounts",
-        "introduction/brand-accounts-and-communities",
-        "introduction/mesi-feelflow-system"
-      ]
-    },
-    {
-      "group": "MESI AI",
-      "pages": [
-        "mesi-ai/about-mesi-ai",
-        "mesi-ai/ai-generators",
-        "mesi-ai/ai-optimizers",
-        "mesi-ai/pilots-and-agents",
-        "mesi-ai/mesi-train2earn"
-      ]
-    },
-    {
-      "group": "Fan & Creator Interaction",
-      "pages": [
-        "fan-and-creator-interaction/overview",
-        "fan-and-creator-interaction/dynamic-interactions",
-        "fan-and-creator-interaction/access-based-interactions",
-        "fan-and-creator-interaction/bid-to-meet-btm",
-        "fan-and-creator-interaction/know-your-fans-kyf-policy",
-        "fan-and-creator-interaction/challenges"
-      ]
-    },
-    {
-      "group": "Advertising",
-      "pages": [
-        "advertising/ads-engine",
-        "advertising/affiliates-network"
-      ]
-    },
-    {
-      "group": "Creator Earnings",
-      "pages": [
-        "creator-earnings/galleries",
-        "creator-earnings/nft-content-management",
-        "creator-earnings/trust-pledges",
-        "creator-earnings/nft-value-and-price",
-        "creator-earnings/selling-and-buying-nfts",
-        "creator-earnings/engagement-rating-system",
-        "creator-earnings/revenue-contribution-and-distribution"
-      ]
-    },
-    {
-      "group": "Funding & Tokens",
-      "pages": [
-        "fan-funding",
-        "mesi-token/overview"
-      ]
-    },
-    {
-      "group": "Gamification",
-      "pages": [
-        "gamification/user-tiers-and-creator-limits",
-        "gamification/influence-points",
-        "gamification/rewards",
-        "gamification/tier-breakdown",
-        "gamification/welcome-bonus",
-        "gamification/leaderboards",
-        "gamification/referral-program"
-      ]
-    },
-    {
-      "group": "Economy",
-      "pages": [
-        "economy/economy-and-revenues",
-        "economy/tokenomics"
-      ]
-    },
-    {
-      "group": "Technology & Backend",
-      "pages": [
-        "technology-and-backend/payment-methods",
-        "technology-and-backend/price-vs.-payment",
-        "technology-and-backend/payment-processing",
-        "technology-and-backend/banking-as-a-service-baas",
-        "technology-and-backend/payments-and-payouts",
-        "technology-and-backend/creator-chain-and-proof-of-stake-pos",
-        "technology-and-backend/banking-service-layer",
-        "first-on-mesi-incentivized-test-app-and-migration-to-mainnet"
-      ]
-    },
-    {
-      "group": "Mesi Finance",
-      "pages": [
-        "mesi-finance/micro-loans",
-        "mesi-finance/btc-savings-accounts"
-      ]
-    },
-    {
-      "group": "Other Policies",
-      "pages": [
-        "other/content-policy-and-flagging-system",
-        "other/ai-accounts-policy",
-        "other/decentralization",
-        "other/licensing-rights",
-        "other/incentivized-testnet"
-      ]
-    },
-    {
-      "group": "Product & Legal",
-      "pages": [
-        "product-map/product-overview",
-        "disclaimer/purpose-and-limitation-of-document"
-      ]
-    },
-    {
-      "group": "Style Guide",
-      "pages": [
-        "mesi-style-guide/logos",
-        "mesi-style-guide/colors",
-        "mesi-style-guide/typography"
-      ]
-    }
-  ]
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Whitepaper",
+        "groups": [
+          {
+            "group": "Welcome",
+            "pages": ["README"]
+          },
+          {
+            "group": "Introduction",
+            "pages": [
+              "introduction/what-is-mesi",
+              "introduction/mission-and-core-values",
+              "introduction/sharing-content-on-mesi-platform",
+              "introduction/content-monetization-and-rewards",
+              "introduction/music-artists-on-mesi",
+              "introduction/real-persona-and-ai-accounts",
+              "introduction/brand-accounts-and-communities",
+              "introduction/mesi-feelflow-system"
+            ]
+          },
+          {
+            "group": "MESI AI",
+            "pages": [
+              "mesi-ai/about-mesi-ai",
+              "mesi-ai/ai-generators",
+              "mesi-ai/ai-optimizers",
+              "mesi-ai/pilots-and-agents",
+              "mesi-ai/mesi-train2earn"
+            ]
+          },
+          {
+            "group": "Fan & Creator Interaction",
+            "pages": [
+              "fan-and-creator-interaction/overview",
+              "fan-and-creator-interaction/dynamic-interactions",
+              "fan-and-creator-interaction/access-based-interactions",
+              "fan-and-creator-interaction/bid-to-meet-btm",
+              "fan-and-creator-interaction/know-your-fans-kyf-policy",
+              "fan-and-creator-interaction/challenges"
+            ]
+          },
+          {
+            "group": "Advertising",
+            "pages": [
+              "advertising/ads-engine",
+              "advertising/affiliates-network"
+            ]
+          },
+          {
+            "group": "Creator Earnings",
+            "pages": [
+              "creator-earnings/galleries",
+              "creator-earnings/nft-content-management",
+              "creator-earnings/trust-pledges",
+              "creator-earnings/nft-value-and-price",
+              "creator-earnings/selling-and-buying-nfts",
+              "creator-earnings/engagement-rating-system",
+              "creator-earnings/revenue-contribution-and-distribution"
+            ]
+          },
+          {
+            "group": "Funding & Tokens",
+            "pages": [
+              "fan-funding",
+              "mesi-token/overview"
+            ]
+          },
+          {
+            "group": "Gamification",
+            "pages": [
+              "gamification/user-tiers-and-creator-limits",
+              "gamification/influence-points",
+              "gamification/rewards",
+              "gamification/tier-breakdown",
+              "gamification/welcome-bonus",
+              "gamification/leaderboards",
+              "gamification/referral-program"
+            ]
+          },
+          {
+            "group": "Economy",
+            "pages": [
+              "economy/economy-and-revenues",
+              "economy/tokenomics"
+            ]
+          },
+          {
+            "group": "Technology & Backend",
+            "pages": [
+              "technology-and-backend/payment-methods",
+              "technology-and-backend/price-vs.-payment",
+              "technology-and-backend/payment-processing",
+              "technology-and-backend/banking-as-a-service-baas",
+              "technology-and-backend/payments-and-payouts",
+              "technology-and-backend/creator-chain-and-proof-of-stake-pos",
+              "technology-and-backend/banking-service-layer",
+              "first-on-mesi-incentivized-test-app-and-migration-to-mainnet"
+            ]
+          },
+          {
+            "group": "Mesi Finance",
+            "pages": [
+              "mesi-finance/micro-loans",
+              "mesi-finance/btc-savings-accounts"
+            ]
+          },
+          {
+            "group": "Other Policies",
+            "pages": [
+              "other/content-policy-and-flagging-system",
+              "other/ai-accounts-policy",
+              "other/decentralization",
+              "other/licensing-rights",
+              "other/incentivized-testnet"
+            ]
+          },
+          {
+            "group": "Product & Legal",
+            "pages": [
+              "product-map/product-overview",
+              "disclaimer/purpose-and-limitation-of-document"
+            ]
+          },
+          {
+            "group": "Style Guide",
+            "pages": [
+              "mesi-style-guide/logos",
+              "mesi-style-guide/colors",
+              "mesi-style-guide/typography"
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
