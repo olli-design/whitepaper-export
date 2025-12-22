@@ -1,34 +1,58 @@
-# Mesi FeelFlow system
+---
+title: "Mesi FeelFlow System"
+description: "An AI-driven emotional discovery engine that guides your content experience based on your mood."
+---
 
-<div><figure><img src="../.gitbook/assets/The Buzz - content new with hive.png" alt="" width="197"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/The Buzz - content mood selector.png" alt="" width="197"><figcaption></figcaption></figure></div>
+The **FeelFlow System** is Mesi's proprietary content delivery engine. Unlike traditional algorithms that only prioritize engagement, FeelFlow allows you to select your **current mood** and a **target mood**, guiding you through an emotional journey with curated content.
 
-In simple words, FeelFlow lets you choose your **current mood** and the **target mood** you want. The system shows content that helps guide you from one to the other.
+<div className="flex gap-4">
+  <img src="../.gitbook/assets/The Buzz - content new with hive.png" alt="Mood Interface" width="200" />
+  <img src="../.gitbook/assets/The Buzz - content mood selector.png" alt="Mood Selector" width="200" />
+</div>
 
-## **How it works**
+## How it Works
 
+The system calculates a "Transition Plan" to move you from your starting point to your desired emotional state.
 
+<Steps>
+  <Step title="Current Mood Selection">
+    The user manually selects their current feeling or allows the AI to detect it based on interaction patterns.
+  </Step>
+  <Step title="Target Mood Setting">
+    The user picks the mood they wish to reach (e.g., from "Stressed" to "Relaxed").
+  </Step>
+  <Step title="Content Transition Plan">
+    The system selects a sequence of content that aligns with the user's interests while gradually shifting the emotional tone.
+  </Step>
+  <Step title="Real-Time Adaptation">
+    The path adapts instantly based on behavior such as skips, pauses, or replays to ensure the journey remains comfortable.
+  </Step>
+</Steps>
 
-1. **Current Mood** – The user selects (or the system detects) how they feel at the start.
-2. **Target Mood** – The user picks the mood they want to reach.
-3. **Transition Plan** – The system selects content that matches both the user's interests and this emotional journey.
-4. **Live Adjustments** – The mood path adapts in real time based on user behavior like skips, pauses, or replays.<br>
+---
 
-## **Emotional Safety**
+## Emotional Safety & Guardrails
 
-To protect users, the system includes psychological guardrails:
+To ensure a positive user experience, Mesi implements psychological guardrails designed by content experts:
 
-* No sharp mood changes (e.g., from sad to party)
-* Smooth transitions only
-* Context-aware adjustments (e.g., time of day, device type)<br>
+* **Smooth Transitions:** The system avoids "emotional whiplash" by preventing sharp changes (e.g., jumping directly from a deeply sad state to a high-energy party state).
+* **Context Awareness:** The algorithm considers external factors like the time of day, your current location, and device type to refine the content selection.
+* **Opt-Out Control:** FeelFlow can be disabled at any time for a standard, neutral browsing experience.
+
+---
 
 ## Mood Discovery Options
 
-Users can:
 
-* Select mood manually using emoji-based choices (e.g., 😄 Happy, 😢 Sad, 💧 Party)
-* Let the system infer mood from behavior (e.g., scroll speed, pause time)
-* Optionally add emoji moods to their profile to shape content passively<br>
 
-This feature can be turned off anytime for a neutral browsing experience.
-
-<br>
+<CardGroup cols={3}>
+  <Card title="Manual Selection" icon="face-smile">
+    Use emoji-based choices to tell the system exactly how you feel and where you want to go.
+  </Card>
+  <Card title="Inferred Mood" icon="brain">
+    Let the AI analyze scroll speed and pause times to detect your mood passively.
+  </Card>
+  <Card title="Profile Moods" icon="user-gear">
+    Tag your profile with "Passive Moods" to shape your long-term content recommendations.
+  </Card>
+</CardGroup>
