@@ -8,7 +8,9 @@ Mesi enables creators to set up three types of ads:
 
 Mesi Ads engine is similar to Google AdSense and helps creators earn extra income.
 
-<figure><img src="../.gitbook/assets/Ad Engine.png" alt=""><figcaption></figcaption></figure>
+<Frame caption="Ad Engine">
+  <img src="../.gitbook/assets/Ad Engine.png" />
+</Frame>
 
 ## Ads Parametrization
 
