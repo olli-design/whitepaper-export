@@ -1,6 +1,12 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "name": "Mesi Whitepaper",
+  "theme": "mint",
+  "colors": {
+    "primary": "#1E1E1E",
+    "light": "#4A4A4A",
+    "dark": "#000000"
+  },
   "navigation": [
     {
       "group": "Welcome",
@@ -130,10 +136,5 @@
         "mesi-style-guide/typography"
       ]
     }
-  ],
-  "colors": {
-    "primary": "#1E1E1E",
-    "light": "#4A4A4A",
-    "dark": "#000000"
-  }
+  ]
 }
