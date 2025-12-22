@@ -1,38 +1,125 @@
-# AI Optimizers
+---
+title: "AI Optimizers"
+description: "Data-driven insights to refine your account strategy, marketing reach, and audience perception."
+---
 
-Mesi AI optimizers provide insights on how creators can tweak their account setup, content, marketing, and overall strategy.
+Mesi AI Optimizers act as a 24/7 strategic consultant. By analyzing platform data, user behavior, and content performance, these tools provide actionable steps to increase your growth and monetization.
 
 ## Account Optimizer
+**Refine your presence and maximize earnings.**
 
-<div><figure><img src="../.gitbook/assets/Profile_ Creator - AI optimizer b.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Profile_ Creator - AI optimizer running e.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Profile_ Creator - AI optimizer results e.png" alt=""><figcaption></figcaption></figure></div>
+The Account Optimizer audits your profile settings and content history to provide a roadmap for improvement.
 
-Account Optimizer is a smart tool that looks at your account, settings, and content to give you simple tips on how to do better on the Mesi App. Here’s what it can do:
+<div className="flex gap-2">
+  <img src="../.gitbook/assets/Profile_ Creator - AI optimizer b.png" alt="Start Audit" width="180" />
+  <img src="../.gitbook/assets/Profile_ Creator - AI optimizer running e.png" alt="Processing" width="180" />
+  <img src="../.gitbook/assets/Profile_ Creator - AI optimizer results e.png" alt="Strategy Results" width="180" />
+</div>
 
-* **Learn What Fans Like:** Find out what your fans enjoy and get ideas for new content they’ll love.
-* Im**prove Your Content:** Get easy-to-follow advice to make your current uploads better so more fans will follow you and you can earn more money.
-* **Fix Account Settings:** Get tips on changing settings like your subscription price to make your account work even better.
-* **Make a Plan:** Create a simple, long-term strategy based on your goals to help you grow and succeed over time.
+### Key Capabilities
+* **Audience Intelligence:** Deep-dive into what your fans enjoy to help you brainstorm your next viral post.
+* **Content Polishing:** Receive specific advice on improving current uploads to increase follower conversion.
+* **Economic Tuning:** Get suggestions on subscription pricing and paywall thresholds to optimize revenue.
+* **Strategic Roadmaps:** Generate a long-term growth plan tailored to your specific career goals.
+
+---
 
 ## Marketing Optimizer
+**Expand your reach within and beyond Mesi.**
 
-<div><figure><img src="../.gitbook/assets/Profile_ Creator - marketing optimizer 2.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Profile_ Creator - marketing optimizer running e2.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Profile_ Creator - AI optimizer results e2.png" alt=""><figcaption></figcaption></figure></div>
+The Marketing Optimizer is designed to turn your content into a recognized brand by improving visibility across multiple channels.
 
-Marketing Optimizer supports two key areas:
+<div className="flex gap-2">
+  <img src="../.gitbook/assets/Profile_ Creator - marketing optimizer 2.png" alt="Marketing Setup" width="180" />
+  <img src="../.gitbook/assets/Profile_ Creator - marketing optimizer running e2.png" alt="Analyzing Traffic" width="180" />
+  <img src="../.gitbook/assets/Profile_ Creator - AI optimizer results e2.png" alt="Ad Performance" width="180" />
+</div>
 
-* **Personal Brand Marketing:** Helps you promote your brand both within the Mesi app and on external platforms.
-* **Ads Performance:** Provides tips to improve ad engine stats, such as increasing reach and impressions on ads displayed with NFTs. For more details, see the [Ads Engine](https://docs.google.com/document/d/1j_1_GBLX02jDs8hRfUU0CSNB2oRfbSaex3oWP9c5-O0/edit?tab=t.hwli5v37utm4) section.
+* **Personal Brand Marketing:** Tactics to promote your Mesi profile on external social media platforms.
+* **Ad Engine Performance:** Optimize your [Ads Engine](/advertising/ads-engine) statistics to maximize reach and impressions on the ads linked to your NFTs.
+
+---
 
 ## Perception Optimizer
+**Align your presentation with your intent.**
 
-<figure><img src="../.gitbook/assets/Profile_ AI Creator - perception optimizer 2.png" alt=""><figcaption></figcaption></figure>
+This unique algorithm analyzes your audiovisual presence to ensure your audience perceives you exactly how you intend.
 
-An AI algorithm analyzes your voice and appearance, offering tips to improve perception and achieve goals. For instance, ask, "How do my fans view my expressions?" or "How can I appear more open-minded?"
+<Frame caption="Perception Analysis Interface">
+  <img src="../.gitbook/assets/Profile_ AI Creator - perception optimizer 2.png" alt="Perception Optimizer" width="250" />
+</Frame>
 
-**What It Does:**
+### Feedback Areas
+* **Voice Dynamics:** Simple tips to adjust your tone, pitch, or cadence to match a desired mood (e.g., "more authoritative" or "more welcoming").
+* **Visual Presentation:** Advice on aligning your style and expressions with your personal brand goals.
+* **Music Analysis:** Analyzes your tracks to identify the exact demographic they will resonate with most, suggesting high-engagement release strategies.
 
-* **Voice Tips:** Offers simple ways to adjust your voice to achieve your desired tone.
-* **Looks Feedback:** Provides advice to align your appearance with how you want to be perceived.
-* **Ideas:** Recommends impactful changes to help you meet your goals.
-* **Music Analyzer:** Analyzes your music to identify your target audience and best engagement strategies.
+<Tip>
+  **Pro Tip:** Use the Perception Optimizer before a major live stream or content drop to ensure your tone matches your target mood in the [FeelFlow System](/path-to-feelflow).
+</Tip>
 
-<figure><img src="../.gitbook/assets/AI Optimizers.png" alt=""><figcaption></figcaption></figure>
+<Frame>
+  <img src="../.gitbook/assets/AI Optimizers.png" alt="Optimizers Overview" />
+</Frame>---
+title: "AI Optimizers"
+description: "Data-driven insights to refine your account strategy, marketing reach, and audience perception."
+---
+
+Mesi AI Optimizers act as a 24/7 strategic consultant. By analyzing platform data, user behavior, and content performance, these tools provide actionable steps to increase your growth and monetization.
+
+## Account Optimizer
+**Refine your presence and maximize earnings.**
+
+The Account Optimizer audits your profile settings and content history to provide a roadmap for improvement.
+
+<div className="flex gap-2">
+  <img src="../.gitbook/assets/Profile_ Creator - AI optimizer b.png" alt="Start Audit" width="180" />
+  <img src="../.gitbook/assets/Profile_ Creator - AI optimizer running e.png" alt="Processing" width="180" />
+  <img src="../.gitbook/assets/Profile_ Creator - AI optimizer results e.png" alt="Strategy Results" width="180" />
+</div>
+
+### Key Capabilities
+* **Audience Intelligence:** Deep-dive into what your fans enjoy to help you brainstorm your next viral post.
+* **Content Polishing:** Receive specific advice on improving current uploads to increase follower conversion.
+* **Economic Tuning:** Get suggestions on subscription pricing and paywall thresholds to optimize revenue.
+* **Strategic Roadmaps:** Generate a long-term growth plan tailored to your specific career goals.
+
+---
+
+## Marketing Optimizer
+**Expand your reach within and beyond Mesi.**
+
+The Marketing Optimizer is designed to turn your content into a recognized brand by improving visibility across multiple channels.
+
+<div className="flex gap-2">
+  <img src="../.gitbook/assets/Profile_ Creator - marketing optimizer 2.png" alt="Marketing Setup" width="180" />
+  <img src="../.gitbook/assets/Profile_ Creator - marketing optimizer running e2.png" alt="Analyzing Traffic" width="180" />
+  <img src="../.gitbook/assets/Profile_ Creator - AI optimizer results e2.png" alt="Ad Performance" width="180" />
+</div>
+
+* **Personal Brand Marketing:** Tactics to promote your Mesi profile on external social media platforms.
+* **Ad Engine Performance:** Optimize your [Ads Engine](/advertising/ads-engine) statistics to maximize reach and impressions on the ads linked to your NFTs.
+
+---
+
+## Perception Optimizer
+**Align your presentation with your intent.**
+
+This unique algorithm analyzes your audiovisual presence to ensure your audience perceives you exactly how you intend.
+
+<Frame caption="Perception Analysis Interface">
+  <img src="../.gitbook/assets/Profile_ AI Creator - perception optimizer 2.png" alt="Perception Optimizer" width="250" />
+</Frame>
+
+### Feedback Areas
+* **Voice Dynamics:** Simple tips to adjust your tone, pitch, or cadence to match a desired mood (e.g., "more authoritative" or "more welcoming").
+* **Visual Presentation:** Advice on aligning your style and expressions with your personal brand goals.
+* **Music Analysis:** Analyzes your tracks to identify the exact demographic they will resonate with most, suggesting high-engagement release strategies.
+
+<Tip>
+  **Pro Tip:** Use the Perception Optimizer before a major live stream or content drop to ensure your tone matches your target mood in the [FeelFlow System](/path-to-feelflow).
+</Tip>
+
+<Frame>
+  <img src="../.gitbook/assets/AI Optimizers.png" alt="Optimizers Overview" />
+</Frame>
