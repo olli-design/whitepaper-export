@@ -1,65 +1,79 @@
-# Economy & revenues
+---
+title: "Economy & Revenues"
+description: "A comprehensive overview of the Mesi ecosystem's fiscal framework and revenue distribution models."
+---
 
-## Mesi revenue streams
+The Mesi economy is built on a circular value model where platform growth directly benefits creators and collectors. By balancing traditional revenue streams with Web3-native incentives, Mesi ensures long-term sustainability.
 
-Mesi generates revenue through a diverse range of channels, encompassing fees, subscriptions, content sales, and more. Below is a detailed breakdown of the company's revenue streams:
+## Mesi Platform Revenue Streams
 
-#### Commission fees
+Mesi maintains a diversified revenue model to fund platform development, reward pools, and liquidity support.
 
-* 10% fee on user-to-user transactions
-* 10% on revenues made by the users
-  * Subscriptions&#x20;
-  * Content/ticket sale
-  * Pay per view
-  * Tipping
-* License rights use (by other users within mesi, or externally)&#x20;
-* 10% on revenues made on ads
 
-#### Service/product fees
 
-* Bundle sales (e.g. acquisition of custom emojis/ memes packs from Mesi)
-* AI tools access/usage
-* Payments for creating ads campaign (CPM budgets)
+### Commission Fees
+Mesi applies a standard **10% fee** across the following activities:
+* **User-to-User Transactions:** Direct NFT sales and trades.
+* **Creator Revenue:** Subscriptions, content/ticket sales, Pay-Per-View, and Tipping.
+* **Licensing:** Use of IP rights by other users (internally or externally).
+* **Advertising:** Total revenue generated from ad placements on content.
 
-#### Other
+### Service & Product Fees
+* **Digital Bundles:** Sales of custom emoji packs, memes, and aesthetic profile enhancements.
+* **AI Tooling:** Fees for accessing advanced AI persona training and generation features.
+* **Ad Campaigns:** CPM-based budgets paid by advertisers to launch campaigns on the Mesi network.
 
-* Advertising platform revenues (e.g. through Ad-sense or other engines)&#x20;
-* On/off-ramp conversion fees.
-* Blockchain / web3 / DEFI transaction fees
-* Micro Loans
+### Ecosystem & Infrastructure
+* **DeFi Services:** Fees from on/off-ramp conversions and micro-loan interest.
+* **Network Fees:** Standard blockchain transaction fees on the Creator Chain.
 
-## Users' revenues
+---
 
-<div><figure><img src="../.gitbook/assets/Profile_ Wallet new 11.png" alt="" width="197"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Total balance 2.png" alt="" width="197"><figcaption></figcaption></figure></div>
+## User Revenue Channels
 
-#### Creators’ revenues
+Mesi provides multiple ways for participants to monetize their presence and assets.
 
-* Subscriptions&#x20;
-* Content sale
-* Pay per view
-* Tipping
-* License rights use (by other users within mesi, or externally)&#x20;
-* Engagement rewards
-* Live streaming revenue (paid tickets and live tips)
+<div className="flex gap-4">
+  <img src="../.gitbook/assets/Profile_ Wallet new 11.png" alt="Wallet Overview" width="200" />
+  <img src="../.gitbook/assets/Total balance 2.png" alt="Balance Breakdown" width="200" />
+</div>
 
-#### NFT owners
+<CardGroup cols={3}>
+  <Card title="Creators" icon="wand-magic-sparkles">
+    * Subscriptions & PPV
+    * Content & Ticket Sales
+    * Live Streaming Tips
+    * [Engagement Rewards](/gamification/engagement-rating-system)
+  </Card>
+  <Card title="NFT Owners" icon="gem">
+    * [Gallery Revenue Share](/economy/revenue-contribution-and-distribution)
+    * Engagement Rewards
+    * Secondary Market Resale
+  </Card>
+  <Card title="General Users" icon="users">
+    * Staking Rewards
+    * Referral Bonuses
+    * [Welcome Bonuses](/gamification/welcome-bonus)
+  </Card>
+</CardGroup>
 
-* Share in revenue contributed by the creator to the gallery&#x20;
-* Engagement rewards&#x20;
-* Content resale
-
-#### All Users
-
-* Staking rewards
-* Referral bonuses
-* Welcome bonuses
+---
 
 ## Mesi Fiscal Policy
 
-Mesi’s fiscal policy is built to keep the Mesi App growing stronger. Here’s how it works:
+Our fiscal policy is engineered to maintain token stability and platform longevity through disciplined treasury management.
 
-* **Liquidity Support:** Mesi will use its funds to facilitate the creation and increasing liquidity of the USDC / $MESI trading pair to make MESI tokens easier to trade.
-* **Incentives Refresh:** Periodically update reward budgets to keep incentives attractive.
-* **Anti-Inflation Measures:** Supporting long-term economic value of the Mesi ecosystem
-* **Sustainable Economy:** Making sure rewards and spending don’t go over the yearly budget, which is based on how much money the company expects to make.
-* **Gradual Reverse Migration:** Slowly shifting all tokens and trading from other blockchains like Ethereum to the Creator Chain. This helps keep everything organized and focused on one system. The goal is to make liquidity even deeper and use the Creator Chain as the primary blockchain for Mesi tokens.
+### Liquidity & Value Support
+* **USDC / $MESI Depth:** Mesi actively utilizes treasury funds to bootstrap and deepen liquidity for the primary $MESI trading pairs.
+* **Anti-Inflationary Measures:** For specific promotional programs (like the Welcome Bonus), Mesi performs **token burns** from reserves to offset supply entries.
+
+### Sustainable Incentives
+* **Budget Alignment:** Yearly reward budgets are capped based on projected platform earnings to prevent over-inflation.
+* **Periodic Refreshes:** Incentive structures are audited and updated to remain competitive with market conditions.
+
+### Migration & Chain Integrity
+* **Consolidated Liquidity:** Mesi facilitates a gradual "Reverse Migration," moving liquidity from Ethereum to the **Creator Chain**. This focuses the ecosystem's economic power on our native infrastructure, ensuring faster settlements and lower fees.
+
+<Tip>
+  **Economic Transparency:** All platform fees and reward distributions are recorded on the Creator Chain, providing a verifiable "Source of Truth" for the Mesi economy.
+</Tip>
