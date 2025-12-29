@@ -1,56 +1,79 @@
-# Revenue Contribution and Distribution
+---
+title: "Revenue & Reward Distribution"
+description: "Learn how gallery contributions and engagement rewards are calculated and shared across the NFT ecosystem."
+---
+
+The Mesi economy is designed to reward long-term value. Through **Revenue Contributions**, creators can share their success with their community, while **Engagement Rewards** incentivize the platform's most active galleries.
 
 ## Revenue Contribution
 
-As a creator, you can allocate a percentage of your revenue to your gallery. This contribution means that the designated portion of your revenue will be distributed among all NFTs in your gallery (both owned and previously sold).
+Creators can choose to allocate a percentage of their personal revenue (from sales, tips, or subscriptions) back into their gallery. This revenue is then distributed among all NFTs in that gallery—including those currently owned by fans.
 
-You can adjust your revenue contribution at any time. However, the revenue share calculation uses a moving average based on the last 12 months of contributions. The value of your current revenue contribution is publicly visible in your gallery description.
+### The 12-Month Moving Average
+To prevent market manipulation, Mesi uses a 12-month moving average to calculate your effective contribution rate.
 
-**Example 1**: Adam has been contributing 100% of his revenue to his gallery for the past six months. In the seventh month, he reduced his contribution to 50%. In the twelfth month, he received a private bid of $1,000 for one of his NFTs and accepted it. At the time of this transaction, his revenue contribution was calculated as: (6x100% + 5\*50%)/11 = **77%**. He will receive $330, while the remaining $770 will be allocated to his gallery.&#x20;
+$$Effective\% = \frac{\sum (\text{Monthly Contribution \% over last 12 months})}{12}$$
+
+> **Scenario:**
+> If a creator contributes 100% for 6 months and then drops to 50% for the next 5 months, their effective contribution for a sale in the 12th month would be **77%**.
+> * On a $1,000 sale, **$770** is distributed to the gallery, and **$230** goes to the creator.
+
+---
 
 ## Revenue Distribution to NFTs
 
-Revenue contributed to the gallery is distributed among the NFTs based on their engagement ratings - a measure of their ability to generate desired activity on the Mesi platform. The higher an NFT's engagement rating, the greater its share of the gallery revenue. &#x20;
-
-**Note:** The buyer of an NFT does not receive a share of the amount they paid for that NFT.
-
-The formula for Revenue Share among gallery NFTs is:
-
-<figure><img src="../.gitbook/assets/Screenshot 2025-02-17 at 13.40.14.png" alt=""><figcaption></figcaption></figure>
-
-**Example 2:** Adam owns 10 NFTs. After selling one NFT and contributing $770 to his gallery, the remaining revenue was distributed among the other nine NFTs. Since Adam still owns all of them, he received the entire gallery contribution.
-
-**Example 3:** Adam consistently contributes 50% of his revenue to his gallery. He sells one NFT for $2,000, allocating $1,000 to the gallery. His gallery contains 10 NFTs, four owned by him and six by others. The $1,000 contribution is distributed as follows:
-
-| NFT   | Owner   | Engagement Rating | Revenue Share |
-| ----- | ------- | ----------------- | ------------- |
-| NFT 1 | Adam    | 40                | $200          |
-| NFT 2 | Adam    | 30                | $150          |
-| NFT 3 | Adam    | 20                | $100          |
-| NFT 4 | Adam    | 10                | $50           |
-| NFT 5 | Owner 2 | 50                | $250          |
-| NFT 6 | Owner 3 | 20                | $100          |
-| NFT 7 | Owner 4 | 15                | $75           |
-| NFT 8 | Owner 5 | 10                | $50           |
-| NFT 9 | Owner 6 | 5                 | $25           |
-
-For more details on engagement ratings, see the [Engagement Rating](engagement-rating-system.md) section.
-
-## Engagement Rewards Distribution
-
-$MESI token rewards incentivize engagement and usage of the Mesi app. Initially, these rewards are funded by the Mesi treasury. Over time, app fees will sustain the reward pools to ensure the long-term economic attractiveness of these rewards.&#x20;
-
-Separate reward pools exist for the mobile and web apps, with distributions occurring every week.
-
-#### Distribution Process:
-
-1. **Gallery Level**: Rewards are allocated to each gallery based on its share of the combined engagement scores of all galleries in the app.
-2. **NFT Level**: Rewards allocated to the gallery are divided among its NFTs according to their individual engagement scores, using the same logic as the revenue split formula.
+Once revenue is allocated to a gallery, it is distributed among individual NFTs based on their [Engagement Rating](/path-to-engagement). 
 
 
 
-Please refer to the charts below for a visual explanation of revenue and rewards distribution:
+### Distribution Formula
+The share for a specific NFT is determined by its individual performance relative to the rest of the gallery:
 
-<figure><img src="../.gitbook/assets/Revenue contribution 1.png" alt=""><figcaption></figcaption></figure>
+$$\text{NFT Revenue Share} = \text{Gallery Contribution} \times \frac{\text{NFT Engagement Rating}}{\sum (\text{Gallery Engagement Ratings})}$$
 
-<figure><img src="../.gitbook/assets/Revenue contribution 2.png" alt=""><figcaption></figcaption></figure>
+<Note>
+  **The Buyer Exclusion Rule:** To maintain economic fairness, the buyer of an NFT does not receive a share of the specific payment they just made for that asset.
+</Note>
+
+### Example: A $1,000 Gallery Distribution
+| Asset | Owner | Engagement Rating | Revenue Share |
+| :--- | :--- | :--- | :--- |
+| **NFT 1** | Creator | 40 | $200 |
+| **NFT 5** | Fan A | 50 | $250 |
+| **NFT 9** | Fan B | 5 | $25 |
+
+---
+
+## Engagement Rewards ($MESI)
+
+Beyond direct sales, Mesi distributes $MESI tokens from the platform treasury (and eventually from app fees) to incentivize high-quality content.
+
+### The Weekly Reward Cycle
+Rewards are calculated weekly and distributed through a two-step process:
+
+<Steps>
+  <Step title="Gallery Allocation">
+    The total weekly reward pool is split among all galleries based on their share of the platform's total Engagement Score.
+  </Step>
+  <Step title="NFT Distribution">
+    The rewards assigned to a gallery are then divided among its individual NFTs using the same engagement-weighted formula used for revenue.
+  </Step>
+</Steps>
+
+---
+
+## Visual Architecture
+
+The following diagrams illustrate the flow of capital from both internal (Creator-contributed) and external (Treasury-funded) sources.
+
+<Frame caption="Phase 1: Revenue Contribution Logic">
+  <img src="../.gitbook/assets/Revenue contribution 1.png" alt="Revenue Flow" />
+</Frame>
+
+<Frame caption="Phase 2: Final Distribution to Owners">
+  <img src="../.gitbook/assets/Revenue contribution 2.png" alt="Reward Flow" />
+</Frame>
+
+<Tip>
+  **For Collectors:** Buying NFTs with high Engagement Ratings in galleries where the creator has a high "Effective Contribution %" is a powerful strategy for earning passive $MESI rewards and revenue shares.
+</Tip>
