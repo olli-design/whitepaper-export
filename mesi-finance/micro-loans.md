@@ -1,59 +1,85 @@
-# Micro loans
+---
+title: "Micro-Loans"
+description: "Flexible financing for creators to scale their projects using \$MESI as collateral."
+---
 
-Mesi offers a simple loan program to help creators get money for their projects.
+Mesi provides a simplified lending framework designed specifically for creators. This program allows you to unlock liquidity for production costs, equipment, or marketing without selling your underlying **\$MESI** holdings.
 
 
 
-<figure><img src="../.gitbook/assets/Micro loans.png" alt=""><figcaption></figcaption></figure>
+## Application Requirements
 
-## How to Apply
+To maintain a sustainable lending pool, Mesi operates on a monthly budget cycle. Once the monthly allocation is exhausted, further applications are closed until the following month.
 
-* Creators need to fill out a loan application form.
-* Each month, Mesi sets a budget that the platform can spend on the loans.&#x20;
-* The amount creators can borrow depends on their [account tier.](../gamification/user-tiers-and-creator-limits.md)
-* Applications are reviewed in the order they are submitted. If the budget runs out before your application is reviewed, it will be rejected. The process operates on a first-come, first-served basis.
-* To apply, creators must offer collateral in $MESI tokens, worth at least three times (300%) the loan amount.
+* **Priority:** Applications are processed on a **first-come, first-served** basis.
+* **Tier Constraints:** Your maximum borrowing limit is tied directly to your [Account Tier](/gamification/user-tiers-and-creator-limits).
+* **Collateral (LTV):** You must provide a minimum of **300% collateral** in **\$MESI** tokens relative to the loan value.
 
-## Application review process
+---
 
-* Creators choose how much they want to borrow and how long they need to pay it back (between 2 and 12 months). Longer payback times mean higher interest rates.
-* Offering more collateral than required can increase the chances of approval.
+## The Review Process
 
-#### What Mesi Looks At
+When you submit a request, Mesi's risk engine evaluates several factors beyond just collateral to ensure ecosystem stability.
 
-Mesi checks these things when reviewing applications:
+### Loan Terms
+Creators can customize their terms within the following ranges:
+* **Duration:** 2 to 12 months.
+* **Interest:** Rates scale based on the duration (longer terms = higher interest).
+* **Approval Boost:** Providing collateral above the 300% minimum significantly increases the probability of instant approval.
 
-* How trustworthy the creator is.
-* How active their gallery is on Mesi?
-* Their past earnings.
-* Their plan is to pay back the loan.
-* How much collateral they are offering?
-* Why they need the loan and how they plan to use it.
+### Evaluation Criteria
+<CardGroup cols={2}>
+  <Card title="Activity & Trust" icon="user-check">
+    Verification of gallery engagement, content consistency, and account history.
+  </Card>
+  <Card title="Financial Performance" icon="chart-line-up">
+    Assessment of past earnings and the viability of the proposed repayment plan.
+  </Card>
+  <Card title="Usage Intent" icon="circle-question">
+    A clear description of how the loan will be used to grow the creator's presence.
+  </Card>
+  <Card title="Collateral Depth" icon="shield-check">
+    The total value and stability of the **\$MESI** tokens offered as security.
+  </Card>
+</CardGroup>
 
-## What Could Happen
+---
 
-* **Rejection**
-* **Conditional Approval**: The loan application is pre-approved, but the creator must increase the collateral to the amount specified by Mesi, or shorten the payback period. Otherwise, the application is rejected.&#x20;
-* **Approval**: The loan application is accepted as is.
+## Application Outcomes
 
-## Paying Back the Loan
+After review, your application will receive one of three statuses:
 
-Creators can pay back the loan manually using a repayment tool on the platform, or they can allocate a portion of their profits and rewards for automatic loan repayment in their profile settings.&#x20;
+1.  **Approval:** The loan is issued immediately to your wallet.
+2.  **Conditional Approval:** Pre-approved, provided you increase collateral or shorten the repayment period.
+3.  **Rejection:** The application is denied due to budget exhaustion or risk factors.
 
-## What Happens if You Don’t Pay
+---
 
-If the loan isn’t paid back on time, Mesi can liquidate the provided collateral fully or partially. This can also happen if:
+## Repayment & Liquidation
 
-* The collateral value drops below 200% of the loan amount.
-* The creator loses the account tier that has been needed for the loan.
-* The creator breaks rules, like:
-* Uploading copyrighted content without permission.
-  * Not using the platform for a long time.
-  * Getting their account suspended.
+Mesi offers flexible repayment tools to help creators maintain their standing and protect their collateral.
 
-Mesi has full discretion in deciding the portion of collateral required to be liquidated and the process of liquidation in cases where rules are broken.
+### Repayment Methods
+* **Manual Repayment:** Use the platform's debt management tool to pay in installments.
+* **Auto-Pay:** Redirect a fixed percentage of your daily earnings and rewards directly toward the loan balance.
 
-<br>
+### Liquidation Risks
 
-<br>
 
+To protect the lending pool, **\$MESI** collateral may be partially or fully liquidated if:
+* **Health Factor:** The collateral value drops below **200%** of the loan amount.
+* **Delinquency:** The loan is not paid back within the agreed timeframe.
+* **Tier Loss:** You lose the required [Account Tier](/gamification/user-tiers-and-creator-limits) during the loan term.
+* **Compliance Violation:** Account suspension, copyright infringement, or prolonged inactivity.
+
+<Warning>
+  **Note on Volatility:** Because **\$MESI** is a market-traded asset, its value can fluctuate. Always monitor your collateral ratio to avoid automatic liquidation during market downturns.
+</Warning>
+
+<Frame caption="Micro-Loan Management Dashboard">
+  <img src="../.gitbook/assets/Micro loans.png" alt="Micro Loan Interface" />
+</Frame>
+
+<Tip>
+  **Borrowing Strategy:** Start with a small loan and a high collateral ratio (400%+) to build your "Trust Score." This will make future, larger loan approvals significantly faster.
+</Tip>
