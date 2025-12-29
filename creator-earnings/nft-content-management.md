@@ -1,40 +1,71 @@
-# NFT content management
+---
+title: "NFT & Content Management"
+description: "Understanding immutable records, ownership rights, and the protocols for content removal."
+---
 
-## NFTs
+On Mesi, every piece of content uploaded is minted as a **Non-Fungible Token (NFT)**. This blockchain integration ensures that every asset is tradable, every owner is verifiable, and every interaction is recorded in an immutable ledger.
 
-When you upload content to the Mesi platform, it becomes an NFT (non-fungible token) - thanks to this
+<Frame caption="The NFT Lifecycle: From Upload to Secondary Market">
+  <img src="../.gitbook/assets/NFT content management.png" alt="Content Management Workflow" />
+</Frame>
 
-* Each content piece becomes tradable
-* We can track who the current owner is
-* We can keep immutable account records of the historical activity related to it
+## Immutable Content IDs
+Every asset is assigned a **Unique Identifier (UID)** that is stored permanently on the blockchain.
+* **The Record:** This UID tracks the entire history of the asset—from the initial timestamp of the upload to every subsequent sale or deletion event.
+* **The Content:** While the *record* of the action is on-chain (immutable), the *media file* is stored off-chain. This allows creators to maintain "The Right to be Forgotten" by removing the actual media while preserving the integrity of the transaction history.
 
-## Unique IDs That Stick
+---
 
-Each piece of content you upload gets a **special ID** that can’t be changed. This ID is stored on the blockchain and keeps a detailed record of every action related to your NFT, such as uploads, sales, and deletions. The ID can’t change, but the content itself isn’t stored on the blockchain, so you can be able to remove it.&#x20;
+## Content Removal & Ownership
 
-## Removing Content
+Ownership dictates who has the right to remove content from public view.
 
-You can take content down from your gallery anytime as long as you still own it. Once someone else buys your content, you can’t remove it from your gallery
+| Ownership Status | Removal Rights |
+| :--- | :--- |
+| **Creator Owned** | You may remove content from your gallery at any time. |
+| **User Owned** | Once sold, you cannot remove the content. It remains in the owner's gallery and your portfolio. |
 
-<figure><img src="../.gitbook/assets/NFT content management.png" alt=""><figcaption></figcaption></figure>
+---
 
-## Content vs Account Deletion
+## Account Deletion Protocols
 
-* **Content Transfer:** If you choose to close your account, any of your content owned by other users will be transferred to their galleries.
-  * Content owned by you will be removed
-* **Account Deletion:** To delete your account, there’s a 48-hour waiting period. After this time, you’ll need to confirm that you want to proceed with deletion.  People who own your content will be notified about the upcoming account deletion.
-* **Recent Purchases:** If someone bought your NFT within 48 hours of you starting the account deletion process, they can get a full refund, and the NFT will be returned to you. If you then confirm the deletion, such content will be removed from the platform.
+Closing a Mesi account involves a structured 48-hour "Cooling-Off" period to protect the financial interests of your NFT holders.
 
-## Keeping Track of Changes
+<Steps>
+  <Step title="Request Deletion">
+    Initiate the process via settings. A **48-hour waiting period** begins.
+  </Step>
+  <Step title="Owner Notification">
+    All users who own your NFTs are notified of the upcoming account deletion.
+  </Step>
+  <Step title="Refund Window">
+    If a user purchased one of your NFTs within 48 hours of your deletion request, they are eligible for a **full refund**, and the NFT is returned to you.
+  </Step>
+  <Step title="Final Confirmation">
+    After 48 hours, you must provide a final confirmation to permanently close the account.
+  </Step>
+</Steps>
 
-Even if you remove content, all the actions taken with your NFT-like uploads, sales, or deletions will stay recorded on the blockchain.
+<Warning>
+  **Post-Deletion Content:** Upon account closure, any content you still own is deleted. However, content owned by other users is **automatically transferred** to their private galleries to ensure their purchase remains accessible.
+</Warning>
 
-**AI Personas as NFTs**
+---
 
-In addition to regular content, AI personas - except for personal digital twins - can be minted as unique NFTs. These identity-based NFTs can be owned, licensed, or traded, and contain metadata that captures personality settings, training history, and visual configurations. This ensures verifiable ownership of virtual characters and enables new forms of monetizable artistic expressions
+## AI Personas as NFTs
 
-## Additional Notes
+Beyond standard media, Mesi allows for the minting of **AI Personas** (excluding personal Digital Twins). These are identity-based NFTs that act as a "container" for:
+* **Personality Settings:** Behavioral traits and communication styles.
+* **Training History:** The data used to refine the AI's responses.
+* **Visual Configurations:** Metadata defining the character's appearance.
+* **Tradability:** These personas can be owned, licensed, or traded as complete, functioning virtual entities.
 
-* Account deletion **will not remove memes, emojis, or sound clips** added to the public Mesi Media Library. If the license for using them was paid, it will be converted to free access.
-* **Music tracks** added to the open media library will be removed. However, content created by other users that incorporates these tracks will remain unaffected.
-* If the NFTs you sold were generating **ad revenue**, you will no longer receive that income. That revenue stream will be fully transferred to the current owner of the NFT.
+---
+
+## Technical Exceptions
+
+To protect the platform's library and other creators, certain assets behave differently upon account deletion:
+
+* **Public Media Library:** Memes, emojis, and sound clips added to the public library are **not removed**. If they were previously paid assets, they transition to "Free Access" for the community.
+* **Music & Licensing:** Original music tracks in the open library are removed. However, any user-generated content (UGC) that *incorporated* those tracks will remain active and unaffected.
+* **Ad Revenue:** If your sold NFTs were generating ad revenue via a [Revenue Model](/path-to-ads), all future income is transferred to the current NFT owner upon your account deletion.
