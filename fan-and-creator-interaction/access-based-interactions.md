@@ -1,35 +1,53 @@
-# Access-based interactions
+---
+title: "Access-Based Interactions"
+description: "Configure tiered subscriptions and Pay-Per-View (PPV) models to monetize your exclusive content."
+---
+
+Mesi allows creators to gate their content behind various access models, providing a steady stream of recurring revenue and one-time payments.
 
 ## Subscriptions
 
-Creators can make different subscription plans for their fans, like Bronze, Silver, or Gold. Each plan gives fans different perks and costs different amounts.
+Creators can design multi-tiered subscription plans (e.g., Bronze, Silver, Gold) to offer fans tailored experiences and exclusive perks.
 
-#### Main Things About Subscriptions:
+<CardGroup cols={3}>
+  <Card title="Custom Billing" icon="calendar-check">
+    Set your own pricing and choose billing cycles (monthly or annually) that fit your brand.
+  </Card>
+  <Card title="NFT Gating" icon="vault">
+    Automatically grant access to specific NFT collections based on the fan's subscription tier.
+  </Card>
+  <Card title="Usage Limits" icon="gauge-high">
+    Define perks like "100 private messages" or "unlimited live streams" per tier.
+  </Card>
+</CardGroup>
 
-* **Price and Billing:** Creators choose how much the subscription costs and how often fans are charged (like every month or year).
-* **What’s Included:** Creators can pick which NFTs fans get to see with each plan.
-* **Extra Benefits:**
-  * Discounts are based on fan levels (like 50% off for higher-level accounts).
-  * Full access to extra features (like private chats or live streams).
-  * Limited access to things like 100 private messages or 5 live streams.
-* **Free Trial:** Fans can try the subscription free for up to 7 days.
+### Key Subscription Features
+* **Tiered Discounts:** Automatically offer discounts on other content based on a fan's level (e.g., 50% off for "Gold" members).
+* **Exclusive Access:** Gate private chats, high-definition streams, and "Surprise" content for subscribers only.
+* **Free Trials:** Incentivize new sign-ups by offering free trials for up to **7 days**.
+
+---
 
 ## Pay-Per-View (PPV)
 
+PPV is ideal for high-value individual uploads, allowing you to charge a specific entry fee for premium content.
 
+<div className="flex gap-4">
+  <img src="../.gitbook/assets/Profile PPV (1).png" alt="PPV Locked" width="197" />
+  <img src="../.gitbook/assets/Profile PPV 2 (1).png" alt="PPV Unlocked" width="197" />
+</div>
 
-<div><figure><img src="../.gitbook/assets/Profile PPV (1).png" alt="" width="197"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Profile PPV 2 (1).png" alt="" width="197"><figcaption></figcaption></figure></div>
+### How PPV Works
+* **Unlock Once:** Fans pay the price set by the creator to permanently unlock the content for their account.
+* **Secondary Sales:** If the NFT is sold to a new owner, that owner gains full access. However, users who previously paid to unlock the content **retain their access** regardless of who owns the NFT.
+* **Price Control:** Creators can disable PPV requirements at any time. However, once an NFT is sold, a creator cannot *re-enable* PPV for that piece unless they repurchase it.
 
-When creators upload content as NFTs, they can set it up as Pay-Per-View. This means fans have to pay to watch or see that content.
+---
 
-#### How PPV Works:
+## Revenue Rights
 
-* **Pay to Watch:** Fans pay the price set by the creator to unlock the content. Once unlocked, it remains visible and accessible.&#x20;
-* **If It’s Sold:** If the NFT is sold to someone else, the new owner also gets the PPV access.  Users who already unlocked the content are unaffected by ownership change.&#x20;
-* **Creator Controls:**
-  * Creators can turn off PPV at any time, even if the content has been sold to someone else.
-  * Creators can’t turn on PPV for NFTs they’ve already sold unless they buy them back.
+<Tip>
+  **The Creator Advantage:** On Mesi, **100% of PPV revenue** goes directly to the original creator, regardless of whether the NFT is currently owned by the creator or a fan.
+</Tip>
 
-## Who Gets the Money?
-
-All the money fans spend on PPV goes straight to the creator, even if the NFT is owned by someone else.
+This ensures that the creator continues to benefit from the viral success and continued consumption of their work long after the initial NFT sale.
