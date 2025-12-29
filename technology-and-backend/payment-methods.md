@@ -29,7 +29,7 @@ The table below details how transactions are handled across different environmen
 Mesi maintains a unified economic backend regardless of the user's payment front-end. This ensures that creators always receive a consistent asset type.
 
 <Card title="Withdrawal Standard" icon="wallet" color="#3b82f6">
-  All platform withdrawals are settled exclusively in $MESI tokens. Whether a fan pays via Apple Pay on mobile or $MESI on the web, the underlying value is converted and settled to the creator's wallet as $MESI.
+  All platform withdrawals are settled exclusively in **\$MESI** tokens. Whether a fan pays via Apple Pay on mobile or **\$MESI** on the web, the underlying value is converted and settled to the creator's wallet as **\$MESI**.
 </Card>
 
 ---
