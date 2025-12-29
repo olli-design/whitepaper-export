@@ -1,54 +1,56 @@
 ---
 title: "Referral Program"
-description: "Grow the Mesi community and earn $MESI bonuses that scale with your account tier."
+description: "Grow the Mesi community and earn $MESI rewards as you level up your account tier."
 ---
 
-The Mesi Referral Program turns your network into a recurring asset. Once you reach **Tier 1**, you unlock a unique referral link and code, allowing you to earn $MESI bonuses for every valid user you onboard.
+The Mesi Referral Program incentivizes our most committed users to act as platform ambassadors. By sharing your unique link, you contribute to the ecosystem's growth while earning a share of the platform's acquisition budget.
 
-## Tier-Based Multipliers
+## How to Participate
 
-While every Tier 1 user is eligible for a **Base Bonus**, the Mesi economy is designed to reward those with more "skin in the game." As you climb the creator tiers, your referral payouts experience a massive multiplier effect.
-
-
-
-| Your Account Tier | Bonus Level | Estimated Value (in $MESI) |
-| :--- | :--- | :--- |
-| **Tier 1** | Base Bonus | $10 |
-| **Tier 2** | 2x Multiplier | $20 |
-| **Tier 3** | 5x Multiplier | $50 |
-| **Tier 4** | 10x Multiplier | $100 |
-| **Tier 5** | **15x Multiplier** | **$150** |
-
----
-
-## How It Works
-
-Earning referral rewards is a simple three-step process integrated directly into your dashboard.
+Unlocking your referral power is a milestone achievement within the Mesi journey.
 
 <Steps>
-  <Step title="Unlock your Link">
-    Reach **Tier 1** by maintaining the required holding score or locking tokens. Navigate to your profile settings to find your unique referral link.
+  <Step title="Reach Tier 1">
+    To ensure high-quality referrals, you must first reach [Tier 1](/gamification/user-tiers-and-creator-limits) by holding the required amount of $MESI.
   </Step>
-  <Step title="Share with your Network">
-    Distribute your link via social media, private messages, or your external website.
+  <Step title="Share Your Link">
+    Once unlocked, your personal referral link and unique code will appear in your **Profile Settings**.
   </Step>
-  <Step title="Collect your Bonus">
-    When a referred user completes a "Valid Action" (such as reaching Tier 1 themselves), the $MESI bonus is automatically credited to your wallet.
+  <Step title="Earn $MESI Rewards">
+    When a new user joins and validates their account using your credentials, a bonus is automatically deposited into your wallet.
   </Step>
 </Steps>
 
 ---
 
-## Important Considerations
+## Reward Tiers
 
-<CardGroup cols={2}>
-  <Card title="Program Budget" icon="vault">
-    The referral program operates on a first-come, first-served basis. Once the designated $MESI budget is depleted, the program may pause or conclude.
-  </Card>
-  <Card title="Strategic Discretion" icon="gavel">
-    To prevent fraud and maintain economic balance, Mesi reserves the right to adjust bonus amounts, mechanics, and timelines without public disclosure.
-  </Card>
-</CardGroup>
+Mesi rewards those with "skin in the game." Your referral bonus scales dynamically based on your current **Account Tier**.
+
+| Your Account Tier | Bonus Multiplier | Estimated Reward Value |
+| :--- | :--- | :--- |
+| **Tier 1** | 1x (Base Bonus) | **$10** in $MESI |
+| **Tier 2** | 2x | **$20** in $MESI |
+| **Tier 3** | 5x | **$50** in $MESI |
+| **Tier 4** | 10x | **$100** in $MESI |
+| **Tier 5** | 15x | **$150** in $MESI |
+
+
+
+---
+
+## Program Availability
+
+The Referral Program is a strategic initiative funded by a dedicated Mesi Treasury budget.
+
+<Card title="Current Status: Active" icon="circle-check" iconType="solid" color="#10b981">
+  The program remains active until the allocated budget is depleted. Mesi reserves the right to adjust bonus mechanics, total budget, or program timelines at its discretion to ensure sustainable growth.
+</Card>
 
 <Warning>
-  **Valid Referrals:** Only "Valid Referrals" trigger a payout. This typically requires the referred user to verify their account and reach a minimum engagement or
+  **Valid Referrals Only:** Bonuses are only issued for "Valid Referrals." To prevent botting and fraud, Mesi's internal security systems must verify the new user's activity before bonuses are finalized.
+</Warning>
+
+<Tip>
+  **Maximize Your Earnings:** Before launching a major referral campaign (e.g., on YouTube or TikTok), consider [Upgrading your Tier](/gamification/user-tiers-and-creator-limits). Referring 10 users at Tier 5 earns you **15x** more than at Tier 1.
+</Tip>
