@@ -1,68 +1,85 @@
-# User tiers & creator limits
+---
+title: "User Tiers & Creator Limits"
+description: "Understand the relationship between token holdings, monetization capacity, and account progression."
+---
 
-## Two Progression Systems
+Mesi uses a dual-progression architecture to ensure platform security and creator accountability. By linking monetization capacity to token holdings, we create an environment where creators have "skin in the game."
 
-Mesi introduces two progression systems
+<Frame caption="Managing your Token Lockups and Tier Progress">
+  <img src="../.gitbook/assets/Token lock management.png" alt="Lock Management UI" width="200" />
+</Frame>
 
-* **Content Monetization Limits**: The amounts of $MESI tokens required to unlock content monetization features and increase sales limits.
-* **User Tiers**: The amount of [influence points](influence-points.md) required to unlock and increase the size of benefits available for all users.  They are assigned to every user, regardless of fans or creators.  They are earned through:
-  * Holding mesi tokens and getting a **holding score**
-  * Locking $MESI tokens as part of unlocking and increasing monetization limits.
+## The Dual Progression Systems
 
-<figure><img src="../.gitbook/assets/Token lock management.png" alt="" width="197"><figcaption></figcaption></figure>
 
-For a complete overview of user tiers and content monetization limits, see the [Incentives & Limits](tier-breakdown.md) section.
 
-<figure><img src="../.gitbook/assets/Tiers.png" alt=""><figcaption></figcaption></figure>
+<CardGroup cols={2}>
+  <Card title="Content Monetization Limits" icon="money-bill-trend-up">
+    Determines your maximum sales volume, number of active listings, and pricing ceilings. Progress is driven by **Locking $MESI tokens**.
+  </Card>
+  <Card title="User Tiers" icon="user-crown">
+    Unlocks platform-wide benefits and social perks for both fans and creators. Progress is driven by your total **Influence Points** (a combination of holding and locking tokens).
+  </Card>
+</CardGroup>
 
-## Holding score
+For a detailed breakdown of specific values, see the [Incentives & Tier Limits](/path-to-tier-breakdown) section.
 
-The holding score is the average $MESI token balance in the user's wallet over the past 7 days.
+---
 
-**Example**: Mark's $MESI token balance in his Mesi wallet over the last 7 days:
+## Holding Score
+The **Holding Score** is a dynamic metric representing the average $MESI balance in your wallet over a rolling **7-day window**.
 
-* Days 1-5: **25,000**
-* Day 6: **10,000**
-* Day 7: **50,000**
+Unlike other platforms that rely on occasional "snapshots," Mesi’s native chain monitors balances in real-time. Every transaction is factored into the moving average, providing an accurate representation of your platform investment.
 
-His holding score is **26,429**
+> **Calculation Example:**
+> * Days 1-5: 25,000 $MESI
+> * Day 6: 10,000 $MESI
+> * Day 7: 50,000 $MESI
+> * **Holding Score:** 26,429
 
-Every wallet balance change is taken into consideration in the calculation of the holding score. Since Mesi uses its native chain, it doesn’t require any snapshot-based system and can monitor these changes in real-time.
+---
 
-## Lockups
+## The Lockup Mechanism
 
-To lock $MESI tokens,  users just need to set a token withdrawal limit in their profile settings.&#x20;
+To "lock" tokens on Mesi, you simply set a **Withdrawal Limit** in your profile settings. This is a non-custodial process; tokens never leave your wallet.
 
-This can be done at any time, even if their wallet balance is zero; however, a specific account tier is unlocked only when they start holding the required amount of tokens in their wallet.
+<Frame caption="Visualizing the Tier Hierarchy">
+  <img src="../.gitbook/assets/Tiers.png" alt="Tier Hierarchy" />
+</Frame>
 
-#### Increasing Withdrawal Limit
+### Adjusting Limits
+* **Increasing Limits:** You can raise your withdrawal limit at any time to unlock higher tiers, maximize rewards, or boost your Engagement Score.
+* **Decreasing Limits:** To regain access to locked tokens, you must first downgrade your account features (active sales, NFT listings) to match the requirements of the lower tier.
 
-Creators can increase their withdrawal limit to any amount, even beyond what’s required for the highest tier. This may be beneficial to maximize rewards or improve their engagement score.
+<Warning>
+  **Locked Thresholds:** While tokens remain in your wallet, they cannot be spent or transferred if the transaction would cause your balance to fall below your set withdrawal limit.
+</Warning>
 
-#### Decreasing Withdrawal Limit
+### Why Lock Tokens?
+The lockup system serves as a multi-purpose security layer:
+1. **Authenticity:** Requires creators to maintain a financial stake, deterring bot accounts.
+2. **Collateral:** Acts as a bond against policy violations, ensuring funds are available for fan compensation if rules are broken.
+3. **Responsibility:** Scales monetization power with financial commitment, encouraging sustainable growth.
 
-If a creator wants to decrease their withdrawal limit and regain the ability to transact or transfer tokens above that limit, they must adjust their account setup. This includes aligning their active sales, listed NFTs, and other tier-based settings with the tier they would qualify for after the withdrawal.
+---
 
-**Example**: A creator holding **5,000** $MESI tokens has a withdrawal limit set at **4,500** tokens.
+## Non-Custodial Security
 
-If they wish to lower their limit to 2,500 tokens, they must adjust their account by reducing active sales volume and NFT listings to match the requirements of the lower tier.
+Mesi is a **non-custodial** platform. You do not need to transfer your $MESI to a third-party vault or smart contract to increase your tier. 
 
-Once their account aligns with the new tier, the withdrawal limit can be decreased, and they regain flexibility over the tokens above the new threshold.
+* **Control:** You maintain 100% ownership and private key control over your tokens.
+* **Transparency:** Your status is verified directly on the Creator Chain without the need for middle-man staking protocols.
 
-While tokens stay in users’ wallets, they **can’t be spent or transferred** below the locked threshold. This system provides several key benefits:
+---
 
-* **Authenticity** – Creators must maintain a minimum $MESI balance, proving credibility. Fake accounts are unlikely to lock tokens.
-* **Collateral** – Locked tokens act as collateral against policy violations or misuse, ensuring compensation for fans, other creators, and 3rd parties when justified.
-* **Responsibility** – Higher sales limits require more tokens locked. With more at stake, users are less likely to break Mesi’s rules, promoting responsible monetization.
+## AI Persona Enhancements
 
-**NOTES**: Locking $MESI is not required to publish content - only to monetize it.
+Locking tokens provides direct technical upgrades to [AI Personas](/path-to-ai). As you reach higher tiers, your AI becomes more sophisticated:
 
-## Non-Custodial Approach
+* **Advanced Logic:** Deeper conversation trees and memory.
+* **Emotional Intelligence:** Wider range of expressive responses.
+* **Visual Fidelity:** Enhanced avatar rendering and animation quality.
 
-As explained above, you don’t need to transfer your tokens anywhere to increase holding scores or the $MESI token lockup size. They will remain in your wallet.&#x20;
-
-This approach is referred to as ‘**non-custodial** ', and sets Mesi apart from other platforms that require transferring tokens to separate staking or lockup vaults, taking away the user’s control and ownership over the tokens.&#x20;
-
-### Lockups vs AI Persona Enhancements
-
-Locking $MESI tokens doesn’t just unlock monetization tiers - it also improves the quality and capabilities of your AI persona. Higher tiers grant access to advanced features such as emotional range, deeper conversation logic, and enhanced visual fidelity. The more tokens you lock, the more intelligent, expressive, and realistic your AI companion becomes.
+<Tip>
+  **The AI Advantage:** High-tier lockups transform a basic AI bot into a high-fidelity "Digital Twin" capable of advanced 1-on-1 fan interactions.
+</Tip>
