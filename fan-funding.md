@@ -1,41 +1,71 @@
 ---
+title: "Fan Funding"
+description: "Launch risk-free crowdfunding campaigns powered by perk-based NFT bundles."
 hidden: true
 ---
 
-# Fan Funding
+Mesi’s **Fan-Funded Perk Model** allows creators to finance upcoming projects—like albums, podcasts, or films—by engaging their community directly. Unlike traditional crowdfunding, this model removes the creator's upfront financial risk and the fan's legal complexity.
 
-<figure><img src=".gitbook/assets/Fan funding.png" alt="" width="197"><figcaption></figcaption></figure>
+<Frame caption="The Fan Funding Interface">
+  <img src=".gitbook/assets/Fan funding.png" alt="Fan Funding Overview" width="200" />
+</Frame>
 
-Mesi offers creators a way to fund their projects by engaging their fan communities directly—without giving up ownership or dealing with complex financial instruments.
+## The Perk-Based Model
 
-Through Mesi’s Fan-Funded Perk Model, creators can launch funding campaigns for upcoming projects (such as albums, podcasts, or videos) and offer exclusive perks to supporters in return. These perks relate to platform discounts, user tiers, engagement score, VIP access and merchandise.  &#x20;
+Creators fund their work by offering exclusive platform benefits rather than equity. These perks are bundled into packages and delivered via NFTs. 
 
-No upfront payment is required from creators. The creator chooses a perk package from Mesi and sets the funding goal.&#x20;
+### Available Perk Categories
+* **Platform Discounts:** Reduced fees for subscriptions or PPV content.
+* **Tier Boosts:** Temporary or permanent upgrades to a fan's [User Tier](/gamification/user-tiers-and-creator-limits).
+* **Engagement Multipliers:** Bonuses to a fan’s [Engagement Score](/path-to-engagement).
+* **VIP Access:** Early entry to live streams or "Bid-to-Meet" priority.
+* **Physical Goods:** Integration with creator merchandise.
 
-Fans contribute by purchasing NFTs tied to the selected perks. Funds are held in a smart contract until the goal is reached. If successful, Mesi automatically deducts the cost of the perk package from the raised amount, delivers the perks to fans, and transfers the remaining balance to the creator. If the goal isn’t met, the campaign is canceled and contributions are refunded where applicable.
+---
 
-Fans receive the perks and access—not ownership (no revenue share, no rights transfer)
+## How It Works
 
-Creators keep full control over their content and IP while being able to fund their projects with the support of their fans.&#x20;
+Mesi handles the escrow, perk fulfillment, and refunds automatically via smart contracts.
 
-### How It Works (Step-by-Step)
+<Steps>
+  <Step title="Select a Perk Package">
+    The creator chooses a pre-configured perk bundle from Mesi (e.g., a "Gold Package" worth 1,000 USDC). **No upfront payment is required.**
+  </Step>
+  <Step title="Launch the Campaign">
+    The creator sets a funding goal (e.g., 10,000 USDC). Fans support the project by purchasing limited-edition "Perk NFTs."
+  </Step>
+  <Step title="Smart Contract Escrow">
+    All contributions are held securely in a smart contract. If the goal is reached, the platform automatically deducts the cost of the perks (1,000 USDC) and releases the remainder (9,000 USDC) to the creator.
+  </Step>
+  <Step title="Automated Delivery">
+    Upon success, the platform instantly distributes the digital perks to the NFT holders. If the campaign fails, the smart contract automatically refunds all fans.
+  </Step>
+</Steps>
 
-1\. Creator selects a perk package from the platform (e.g., "Golden Honey Album Package" worth 1,000 USDC).
+---
 
-2\. They launch a fan funding campaign:&#x20;
+## Creator & Fan Benefits
 
-* “Help me raise 10,000 USDC to produce my new album.”
-* Fans buy limited-edition NFTs that grant perks from the selected package.
+<CardGroup cols={2}>
+  <Card title="For Creators" icon="shield-check">
+    **Zero Risk:** If you don't hit your goal, you owe the platform nothing.  
+    **Full Ownership:** You retain 100% of your IP, revenue shares, and copyrights.
+  </Card>
+  <Card title="For Fans" icon="heart">
+    **Direct Support:** Help your favorite artists bring new projects to life.  
+    **Guaranteed Perks:** Receive tangible platform benefits and VIP status.
+  </Card>
+</CardGroup>
 
-3\. If the campaign hits the target:
+<Warning>
+  **No Ownership Transfer:** Fan funding on Mesi is a "Perk Model," not an "Equity Model." Fans receive access and utility—they do not receive revenue shares or intellectual property rights.
+</Warning>
 
-The platform automatically deducts 1,000 USDC from the raised funds for the perk package
+### Summary Table: Successful vs. Failed Campaigns
 
-* Creator receives 9,000 USDC
-* Perks are distributed to fans
-
-4\. If the campaign fails:
-
-* No funds are collected
-* No payment due to the platform
-* No perks are distributed
+| Feature | Successful Campaign | Failed Campaign |
+| :--- | :--- | :--- |
+| **Creator Payout** | Total raised minus Perk Bundle cost | $0 |
+| **Perk Delivery** | Automatic to all NFT holders | Canceled |
+| **Fan Cost** | Retain NFT with Perks | Full Refund issued |
+| **Platform Fee** | Covered by Perk Bundle cost | $0 |
