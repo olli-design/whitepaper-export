@@ -1,24 +1,50 @@
-# Galleries
+---
+title: "Galleries"
+description: "Professional digital portfolios for organizing and showcasing your multi-media NFT collections."
+---
 
-## What is a Mesi Gallery?
+A **Mesi Gallery** is a creator's centralized hub for all digital assets. Unlike traditional social media profiles, Mesi Galleries act as permanent digital portfolios, meticulously organized by media type and ownership history.
 
-<div><figure><img src="../.gitbook/assets/Your Gallery v3 (1).png" alt="" width="197"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Gallery with memes.png" alt="" width="197"><figcaption></figcaption></figure></div>
+<div className="flex gap-4">
+  <img src="../.gitbook/assets/Your Gallery v3 (1).png" alt="Standard Gallery View" width="200" />
+  <img src="../.gitbook/assets/Gallery with memes.png" alt="Specialized Media View" width="200" />
+</div>
 
-A Mesi Gallery is a place where creators can show off all their work. Galleries are digital portfolios, organized into sections for photos, video, and audio galleries.
+## Organized Content Discovery
 
-<figure><img src="../.gitbook/assets/Galleries.png" alt=""><figcaption></figcaption></figure>
+Every gallery is automatically partitioned into three primary sections to ensure a seamless fan experience:
+* **Photo Galleries:** High-fidelity images, digital art, and photography.
+* **Video Galleries:** Cinematic content and short-form clips.
+* **Audio Galleries:** Music, podcasts, and soundscapes.
 
-## Key Features
+<Frame caption="The Mesi Gallery Architecture">
+  <img src="../.gitbook/assets/Galleries.png" alt="Gallery hierarchy diagram" />
+</Frame>
 
-* Creators always confirm their own rights to anything they upload.
-* Uploaded content is shown in the order it was added.
-* Users sort and filter the content using criteria such as type, year, or other.
+### Key Management Features
+* **Rights Verification:** Upon upload, creators must confirm their legal rights to the assets.
+* **Chronological Display:** Content is displayed in a default chronological timeline of creation.
+* **Smart Filtering:** Fans can sort and filter content by media type, year of release, and custom tags.
 
-## Gallery completeness
+---
 
-Galleries always show all the content a creator has uploaded, **even if they sell it to someone else.**\
-Unlimited size
+## Gallery Completeness & Capacity
 
-Creators can add **as much content as they want** to their gallery.
+Mesi Galleries are designed for permanence and infinite scale, providing a complete record of a creator's professional history.
 
-<figure><img src="../.gitbook/assets/Galleries 2.png" alt=""><figcaption></figcaption></figure>
+<CardGroup cols={2}>
+  <Card title="Permanent Showcase" icon="infinity">
+    Galleries display **all content** a creator has ever uploaded—even after an NFT is sold to another user. This ensures your public portfolio remains complete.
+  </Card>
+  <Card title="Unlimited Storage" icon="database">
+    There are no limits on gallery size. Creators can upload as much content as they need to build their brand without worrying about storage caps.
+  </Card>
+</CardGroup>
+
+<Frame>
+  <img src="../.gitbook/assets/Galleries 2.png" alt="Gallery Content Management" />
+</Frame>
+
+<Info>
+  **Note on Ownership:** While sold items remain visible in your gallery for portfolio purposes, they are clearly marked to distinguish them from items still available for purchase.
+</Info>
