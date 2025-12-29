@@ -24,7 +24,7 @@ Regardless of how a fan pays, Mesi provides a unified and incentivized settlemen
   <Card title="Instant Payouts" icon="bolt">
     Earnings are converted and credited to your wallet immediately upon transaction. *Note: Music creators receive monthly settlements.*
   </Card>
-  <Card title="The \$MESI Bonus" icon="percentage">
+  <Card title="The MESI Bonus" icon="percentage">
     Choose to receive your earnings in **\$MESI** tokens to receive an automatic **10% bonus** on your total payout.
   </Card>
 </CardGroup>
