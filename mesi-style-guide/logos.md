@@ -36,11 +36,9 @@ Our events division uses a specialized branding variant specifically designed fo
 ## Media Kit & Downloads
 Download the complete set of official Mesi brand assets, including vector (SVG) and high-resolution (PNG) files.
 
-<CardGroup cols={1}>
-  <Card title="Download Full Logo Package" icon="file-zipper" href="../.gitbook/assets/Mesi_all_logos.zip">
-    Includes main variants, event logos, and the liquid drop icon in all approved brand colors.
-  </Card>
-</CardGroup>
+<Card title="Download Full Logo Package" icon="file-zipper">
+  [Click here to download the Mesi_all_logos.zip file](../.gitbook/assets/Mesi_all_logos.zip)
+</Card>
 
 <Note>
   **Brand Integrity:** Please do not alter, rotate, or distort the logo. For custom variants or brand partnership approvals, please contact the Mesi marketing team.
