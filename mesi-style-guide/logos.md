@@ -1,26 +1,51 @@
 ---
-cover: ../.gitbook/assets/Frame 1D.png
-coverY: 0
+title: "Logos & Brand Assets"
+description: "Official Mesi logo variants and usage guidelines for media and partners."
 ---
 
-# Logos
+<Frame>
+  <img src="../.gitbook/assets/Frame 1D.png" alt="Mesi Brand Identity" />
+</Frame>
 
-## Main logo variants
+## The Mesi Icon
+The core of our visual identity is a rounded rectangle featuring a liquid drop cut-out. This icon is used consistently across the platform to denote individual pieces of content and represents the fluid nature of the Creator Chain.
 
-Mesi's main logo consists of a rounded rectangle and a liquid drop cut-out, an icon that's also used across the Mesi app to denote pieces of content. There are two basic versions of the main logo, that can be used where appropriate.&#x20;
+### Main Logo Variants
+Mesi utilizes two primary versions of the logo depending on the background and layout requirements.
 
-New variants can be generated as needed, as long as they only use a single solid color, and the contrast ratio of 3:1 is maintained at all times.
+<Frame caption="Standard Mesi logo variants in primary brand colors">
+  <img src="../.gitbook/assets/Logo variants.png" alt="Logo Variants" />
+</Frame>
 
-<figure><img src="../.gitbook/assets/Logo variants.png" alt=""><figcaption></figcaption></figure>
+**Usage Rules:**
+* **Color:** New variants must always utilize a single, solid color.
+* **Contrast:** A minimum contrast ratio of **3:1** must be maintained between the logo and its background at all times.
+* **Spacing:** Ensure adequate clear space around the logo to maintain visual integrity.
+
+---
 
 ## Mesi Events
+Our events division uses a specialized branding variant specifically designed for promotional materials, physical activations, and event-specific digital assets.
 
-Mesi Events has its own logo that is used for promotional purposes:
+<Frame caption="Official Mesi Events branding">
+  <img src="../.gitbook/assets/Mesi Events.png" alt="Mesi Events Logo" />
+</Frame>
 
-<figure><img src="../.gitbook/assets/Mesi Events.png" alt=""><figcaption></figcaption></figure>
+---
 
-## Downloads
+## Media Kit & Downloads
+Download the complete set of official Mesi brand assets, including vector (SVG) and high-resolution (PNG) files.
 
-All Mesi logos as a zip package:
+<CardGroup cols={1}>
+  <Card title="Download Full Logo Package" icon="file-zipper" href="../.gitbook/assets/Mesi_all_logos.zip">
+    Includes main variants, event logos, and the liquid drop icon in all approved brand colors.
+  </Card>
+</CardGroup>
 
-{% file src="../.gitbook/assets/Mesi_all_logos.zip" %}
+<Note>
+  **Brand Integrity:** Please do not alter, rotate, or distort the logo. For custom variants or brand partnership approvals, please contact the Mesi marketing team.
+</Note>
+
+<Tip>
+  **Developer Tip:** When using the liquid drop icon in-app, refer to our [UI Component Library](/path-to-ui-library) for standardized scaling and padding guidelines.
+</Tip>
