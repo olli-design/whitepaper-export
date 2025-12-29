@@ -1,35 +1,60 @@
-# Affiliates network
+---
+title: "Affiliate Network"
+description: "Expand your reach by managing internal and external promotion partners through Mesi's automated affiliate suite."
+---
 
-Mesi gives creators access to a dedicated set of solutions designed to help them manage and expand their affiliate networks.&#x20;
+Mesi provides creators with a professional-grade affiliate ecosystem, allowing you to recruit, track, and reward partners who promote your content across the web.
 
-## Dashboard
-
-The Affiliates Network Dashboard allows creators to:
-
-* Create and track unique affiliate **links** or **codes**
-* Configure **rewards** for affiliates, such as Mesi tokens, NFTs, or exclusive content.
-* Access real-time **performance data** - clicks, conversions, and revenue.
-* Use whitelisted **API endpoints** to connect and integrate with external platforms.
-* Use Mesi AI Messaging Agent, which automates affiliate communication, including updates and offers.
-* Collect insights from **Mesi AI Engagement Agent**, which provides data-based recommendations to improve campaign performance, such as targeting demographics or determining promotion timing.
-
-<Frame caption="Ad Engine">
-  <img src="../.gitbook/assets/AI Affiliates network 2.png" />
+<Frame caption="Affiliate Network Management Interface">
+  <img src="../.gitbook/assets/AI Affiliates network 2.png" alt="Affiliate Dashboard" />
 </Frame>
 
-## Internal and External Affiliate Collaboration
+## The Affiliate Dashboard
 
-Creators can collaborate with two types of affiliates:
+The dashboard serves as your central command center for growth, integrating advanced tracking with Mesi's native AI agents.
 
-**Internal affiliates**
+<CardGroup cols={2}>
+  <Card title="Tracking & Attribution" icon="link">
+    Generate unique affiliate links or promo codes and monitor clicks, conversions, and revenue in real-time.
+  </Card>
+  <Card title="Automated Rewards" icon="gift">
+    Configure automated payouts for your partners using $MESI tokens, NFTs, or exclusive content access.
+  </Card>
+  <Card title="AI Communications" icon="robot">
+    Use the **Messaging Agent** to automate affiliate onboarding, updates, and seasonal offer distribution.
+  </Card>
+  <Card title="Campaign Intelligence" icon="chart-network">
+    The **Engagement Agent** analyzes performance to recommend the best promotion timing and target demographics.
+  </Card>
+</CardGroup>
 
-Other users within the Mesi platform, including fans or smaller creators.
+---
 
-**External affiliates**
+## Strategic Collaborations
 
-Anyone outside the platform is recruited via personalized affiliate links or codes. These affiliates may operate on platforms like Google Ads, Facebook, Instagram, YouTube, or TikTok.
+You can scale your brand by leveraging two distinct types of promotion partners:
 
-## Collateral
+### Internal Affiliates
+These are existing Mesi users, such as fans or other creators. 
+* **Benefit:** They are already familiar with the ecosystem and can promote your content directly within Mesi communities.
+* **Incentive:** Often rewarded with $MESI tokens or "Fan Level" boosts.
 
-Affiliates are required to provide MESI tokens as collateral for ad promotions. If they violate advertising rules, penalties are deducted from their locked tokens.
+### External Affiliates
+Partners recruited from outside the platform who operate on global networks like Google Ads, Facebook, Instagram, YouTube, or TikTok.
+* **Benefit:** Directs fresh traffic and new users into the Mesi ecosystem through your personalized links.
+* **Tracking:** Uses whitelisted **API endpoints** to ensure external conversion data is accurately synced with your Mesi dashboard.
 
+---
+
+## Affiliate Safeguards
+
+To ensure high-quality traffic and protect the platform's integrity, Mesi implements a strict collateral system for all promotion partners.
+
+
+
+<Warning>
+  **Token Collateral Requirement:** Affiliates are required to lock **$MESI tokens** as collateral before launching ad promotions. If an affiliate violates platform advertising rules (e.g., spamming or fraudulent clicks), penalties are deducted directly from their locked collateral.
+</Warning>
+
+### Developer Integration
+For professional agencies and external networks, Mesi offers whitelisted **API endpoints**. This allows for deep integration with third-party tracking software and automated marketing stacks, ensuring your external affiliate data is as robust as your internal metrics.
