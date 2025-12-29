@@ -1,29 +1,61 @@
-# Bid-to-Meet (BtM)
+---
+title: "Bid-to-Meet (BtM)"
+description: "A secure, escrow-backed bidding system for personal meetings and exclusive virtual interactions."
+---
 
-**Bid-to-Meet (BtM)** is a concept that lets fans connect with creators using a safe and simple bidding process. It helps set up and manage personal meetings through the Mesi platform.
+**Bid-to-Meet (BtM)** enables fans to bid for personal time with creators. The system uses smart contract escrow to ensure financial security and an integrated calendar to manage scheduling seamlessly.
 
-### How It Works
+## How It Works
 
-1. **Bidding Process:** Fans can place bids through a creator’s profile for a chance to meet them. The bid amount is stored safely in an escrow smart contract. (**Note**: Fans can only bid creators who allow this option.)
-2. **Creator’s Acceptance:** The creator looks at the bids and, if they agree, a private chat opens so both sides can set up the meeting details (like time, place, or an online meeting platform).
-3. **Escrow Management:** The bid money stays locked in the escrow until the meeting happens.
-4. **Confirmation and Release:** During the meeting, the fan scans a QR code the creator gives them. This confirms the meeting happened and releases the funds from escrow to the creator.
+The BtM process is designed to protect both parties, ensuring funds are only released upon a successful interaction.
 
-<figure><img src="../.gitbook/assets/Bid to meet new.png" alt=""><figcaption></figcaption></figure>
+<Steps>
+  <Step title="Bidding">
+    Fans place a bid via the creator's profile. The funds are immediately moved into a secure **Escrow Smart Contract**.
+  </Step>
+  <Step title="Acceptance & Scheduling">
+    If the creator accepts the bid, a private chat opens. Both parties use the **Integrated Calendar** to finalize the time, location, or digital platform.
+  </Step>
+  <Step title="Identity Verification">
+    The creator may trigger a **KYF (Know Your Fan)** request. The fan must consent to share specific registration data within 48 hours, or the bid is automatically cancelled and refunded.
+  </Step>
+  <Step title="Meeting & QR Confirmation">
+    During the meeting, the creator presents a unique **QR code**. Once the fan scans it, the meeting is verified, and the escrow funds are released to the creator.
+  </Step>
+</Steps>
 
-## Additional features
+<Frame caption="The Bid-to-Meet Interface">
+  <img src="../.gitbook/assets/Bid to meet new.png" alt="BtM Process" />
+</Frame>
 
-* **Integrated Calendar:** Creators can use a built-in calendar to keep track of all their planned meetings and make sure they don’t miss anything.
-* **KYF Policy:** Creators can require fans to accept a KYF (Know Your Fan) data-sharing request, which involves consent to access specific information about the bidder from the Mesi KYC form they've completed as part of account registration. (For more details, please see the [KYF section](know-your-fans-kyf-policy.md).) The KYF request is initiated after the creator approves the bid (step 2). If the bidder does not accept this requirement within 48 hours, the bid is canceled, and the funds held in the escrow contract are released back to the bidder.&#x20;
+---
 
-<div><figure><img src="../.gitbook/assets/AI features_ BtM chat.png" alt="" width="295"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/AI features_ BtM video.png" alt="" width="295"><figcaption></figcaption></figure></div>
+## Safety & Trust
 
-**AI-Powered Meetings**
+<Warning>
+  **KYF Compliance:** To ensure creator safety, bidders must have a completed KYC profile. If a creator requests KYF data and the bidder denies or ignores it, the interaction is terminated to prevent unauthorized or high-risk encounters.
+</Warning>
 
-For AI accounts, BtM offers virtual interactions with AI personas instead of real-life meetings. When a fan wins the bid, they gain access to a private virtual room where they can interact in real-time with the AI character.&#x20;
+### Integrated Calendar
+Creators can manage their availability directly within the Mesi App. The calendar syncs with accepted bids to prevent double-booking and sends automated reminders to both parties.
 
-These sessions are powered by Mesi’s AI engine, and the personality, voice, and behavior of the AI can be enhanced through linked AI agents purchased by the account owner.
+---
 
-_**Note:** For AI accounts, bid-to-meet proposals function as virtual interaction offers rather than in-person meetings. AI creators can define tiered pricing levels for different formats, such as text chat, voice calls, or immersive video avatar sessions. These pricing tiers can vary depending on the account’s user tier and the complexity or upgrades applied to the AI persona._
+## Virtual BtM (AI Accounts)
 
-<br>
+For **AI Accounts**, Bid-to-Meet transitions from physical meetings to immersive virtual interactions.
+
+<div className="flex gap-4">
+  <img src="../.gitbook/assets/AI features_ BtM chat.png" alt="AI Chat Session" width="295" />
+  <img src="../.gitbook/assets/AI features_ BtM video.png" alt="AI Video Session" width="295" />
+</div>
+
+Instead of a physical location, winning bidders gain access to a **Private Virtual Room**. Here, they can interact in real-time with the AI persona.
+
+* **Tiered Formats:** AI creators can set different pricing tiers for Text Chat, Voice Calls, or Full-Video Avatar sessions.
+* **Agent Enhancements:** The quality of the interaction (voice realism, behavioral depth) depends on the AI Agents and upgrades the account owner has active.
+* **Instant Delivery:** Unlike human meetings, AI virtual sessions can often be triggered immediately upon bid acceptance.
+
+<Note>
+  AI-Virtual meetings are a primary revenue stream for "Digital Twin" and fully synthetic personas, offering fans 1-on-1 time that scales without physical constraints.
+</Note>
