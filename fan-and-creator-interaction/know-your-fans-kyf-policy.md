@@ -1,54 +1,69 @@
-# Know Your Fans (KYF) Policy
+---
+title: "Know Your Fans (KYF) Policy"
+description: "Empowering creators with customizable data-sharing requirements to ensure community safety and compliance."
+---
 
-Creators on the Mesi platform can set rules, called a **KYF policy**, to control who sees their content.
+The **Know Your Fans (KYF)** policy is a unique security framework that allows creators to define exactly who can interact with their content. By leveraging the platform's verified KYC data, creators can request specific fan information before granting access to subscriptions, live streams, or private messaging.
 
-These rules let creators ask for certain information to be shared from KYC data that  fans have submitted while registration,  before they can subscribe, view pay-per-view content, join live streams, or even send tips. This helps make sure everything stays secure and personal.
 
-## What Is the KYF Policy?
 
-The KYF policy is **flexible**. Creators can decide what information fans need to provide for things like:
+## Core Concept
+The KYF policy is **flexible and creator-driven**. You decide the barrier to entry based on the sensitivity of your content or the nature of the interaction. 
 
-* Different subscription plans
-* Special content like private photos or videos
-* Any interaction where fan identity matters
+### Data Request Levels
+Creators can choose from three standardized levels of information sharing:
 
-## What Information Can Be Requested?
+| Level | Requested Data Points | Use Case Example |
+| :--- | :--- | :--- |
+| **Level 1** | Name, Age, Gender | General audience filtering |
+| **Level 2** | Country / Location | Regional compliance or local meetups |
+| **Level 3** | Verified Facial Photo | High-security or 1-on-1 interactions |
 
-Creators can ask for fan information on three levels:
+<Frame caption="Configuring your KYF requirements in the Creator Dashboard">
+  <img src="../.gitbook/assets/KYF Policy.png" alt="KYF Policy Settings" />
+</Frame>
 
-#### Level 1:
+---
 
-* Name
-* Age
-* Gender
+## How It Works
 
-#### Level 2:
+The KYF process is built on the principle of **Informed Consent**. Information is never shared with a creator without the fan's explicit approval.
 
-* Country
+<Steps>
+  <Step title="The Request">
+    When a fan attempts to access gated content (e.g., a Level 3 stream), they receive a prompt outlining the creator's KYF requirements.
+  </Step>
+  <Step title="KYC Verification Check">
+    Mesi checks if the fan has already verified this data at the platform level (KYC). If the fan's KYC level is lower than the requested KYF level, they must upgrade their profile first.
+  </Step>
+  <Step title="Consent">
+    The fan agrees to share the verified data points with that specific creator. 
+  </Step>
+  <Step title="Access Granted">
+    Once consent is given, Mesi securely transmits the verified data, and the creator (or their AI Agent) grants access to the content.
+  </Step>
+</Steps>
 
-#### Level 3:
+<Warning>
+  **Privacy Guardrail:** Fans who have the highest level of platform KYC still must manually agree to every new creator's KYF request. Data is shared on a per-creator basis; it is never "open by default."
+</Warning>
 
-* A photo of their face
+---
 
-<figure><img src="../.gitbook/assets/KYF Policy.png" alt=""><figcaption></figcaption></figure>
+## Custom Rules & Exceptions
 
-## How Does It Work?
+We recognize that one size does not fit all. Creators have full control over exceptions to their general policy:
 
-* Fans must agree to the KYF request; otherwise, their information will not be shared.
-* If the KYF request level is higher than the user’s current KYC level, the user must upgrade their KYC level to accept the KYF request.
-* Fans who already have the highest level of **KYC verification** don’t need to provide additional information. They only need to agree to the creator’s KYF request.
-* Fans who haven’t met the required level will receive a prompt to update their information.
+* **Whitelist Exceptions:** Allow specific trusted accounts or long-term fans to skip general KYF rules.
+* **Tiered Requirements:** Set lower KYF levels for public content and higher levels for "Surprises" or "Bid-to-Meet" interactions.
+* **Manual Overrides:** Adjust rules for specific fans if you have already verified their identity through other professional means.
 
-When a fan agrees to the KYF request, Mesi securely shares the verified information with the creator. The creator then decides if the fan can access their content.
 
-## Special Rules for Exceptions
 
-Creators can make **exceptions** to their KYF rules. For example, they can:
+---
 
-* Allow certain accounts to skip the general rules.
-* Require less information from specific fans.
-
-These options let creators make the rules fit their needs while still connecting with their fans in a way that feels right.
-
-\
-<br>
+## Technical Integration
+The KYF system is integrated into every monetization tool on Mesi:
+* **Subscriptions:** Link tiers to specific KYF levels.
+* **Live Streams:** Automatically boot or block users who don't meet the stream's KYF requirements.
+* **Tipping:** Require identity verification before accepting large-scale tips to prevent money laundering or fraud.
