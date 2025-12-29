@@ -1,79 +1,74 @@
-# Content Policy and Flagging System
+---
+title: "Content Policy & Flagging"
+description: "Guidelines and enforcement mechanisms to ensure a safe, high-quality ecosystem on Mesi."
+---
 
-## Content Rules
+Mesi is committed to maintaining a premium environment for creators and fans. Our policy combines real-time AI filtering with community reporting and manual moderation to uphold platform integrity.
 
-Mesi App does not allow:
+## Prohibited Content
+To protect the community and the value of **\$MESI** tokens, the following are strictly prohibited:
 
-* Illegal content.
-* Content that breaks copyright laws.
-* Inappropriate or unethical material.
-* Content that is very low-quality or off-topic.
-* Materials that goes against [Mesi Content Policy](https://docs.google.com/document/d/1F9HVcaBDUK85tAOl0c1zQncQyDNByNCU-4h2zmclA74/edit?tab=t.0)
-* Any other content that is against any applicable Mesi Rules or purpose of the Platform.
+* **Illegal Acts:** Any content depicting or promoting illegal activities.
+* **Copyright Infringement:** Unauthorized use of intellectual property.
+* **Ethical Violations:** Harassment, hate speech, or unethical material.
+* **Spam & Low Quality:** Off-topic content or high-volume, low-value uploads.
+* **Policy Defiance:** Anything violating the full [Mesi Content Policy](https://docs.google.com/document/d/1F9HVcaBDUK85tAOl0c1zQncQyDNByNCU-4h2zmclA74/edit?tab=t.0).
 
-## How Mesi Filters Content
+---
 
-Mesi uses an AI system to find and remove disallowed content. The filtering happens when:
+## The Moderation Workflow
+Mesi employs a multi-layered approach to content filtering, ensuring that violations are caught early and handled fairly.
 
-* Content is uploaded.
-* AI-generated input or prompts are submitted.
 
-## Flagging System
 
-Mesi manages rule-breaking content using three types of flags: **Yellow, Red**, and **Black Flags**.
+<Steps>
+  <Step title="AI Pre-Filtering">
+    Our AI system scans content and prompts during the upload process. Disallowed material is blocked instantly before reaching the platform.
+  </Step>
+  <Step title="Community Reporting">
+    Users can flag content they believe violates our rules. These reports are queued for human review.
+  </Step>
+  <Step title="Moderator Verification">
+    Dedicated moderators perform regular audits and investigate flagged items to confirm violations and assign appropriate penalties.
+  </Step>
+</Steps>
 
-#### How Flags Work
+---
 
-#### **Automatic Detection**
+## The Three-Flag System
+Penalties are categorized by severity using a color-coded flagging system.
 
-* The AI system spots content that breaks the rules (like inappropriate language or copyright problems).
-* Moderators check flagged content to confirm if the rules were broken.
+<CardGroup cols={3}>
+  <Card title="Yellow Flag" icon="flag" color="#facc15">
+    **Minor Violations**
+    Issued for small infractions. Two Yellow Flags within a 30-day window automatically trigger a Red Flag.
+  </Card>
+  <Card title="Red Flag" icon="flag" color="#ef4444">
+    **Escalated Status**
+    Leads to account restrictions, such as mandatory manual approval for all new uploads and reduced visibility.
+  </Card>
+  <Card title="Black Flag" icon="flag" color="#000000">
+    **Critical Violation**
+    Issued for illegal content or severe copyright theft. Triggers an immediate Admin review and potential permanent ban.
+  </Card>
+</CardGroup>
 
-#### **User Reports**
+### Consequences of Enforcement
+* **Account Suspension:** Temporary or permanent loss of platform access.
+* **Reward Forfeiture:** Disqualification from [Incentive Programs](/gamification/nectar-points) and token airdrops.
+* **Legal Action:** Mesi reserves the right to contact law enforcement for serious criminal violations.
 
-* Users can report content they think breaks the rules.
-* Moderators review these reports and decide if a flag is needed.
+---
 
-#### **Moderator Checks**
+## Report Integrity
+To prevent harassment and maintain system efficiency, Mesi strictly monitors the use of the report feature.
 
-* Moderators also look at content during regular or surprise checks.
-* They focus on accounts with flags or suspicious behavior.
 
-#### Types of Flags
 
-#### **Yellow Flags**
+<Warning>
+  **Misuse of Reporting:** Filing false reports, reporting as a joke, or repeated reporting of cleared content will lead to an initial warning, followed by a **1-month suspension** of your reporting privileges.
+</Warning>
 
-* Given for small rule-breaking actions (e.g., several violations in a few days).
-* Getting two yellow flags (in total or one month) leads to a red flag.
-
-#### **Red Flags**
-
-* You get a red flag after two yellow flags.
-* It can lead to extra rules for uploading content, like needing to provide more information based on file size.
-* Red flags disappear over time, but getting new ones resets the timer.
-
-#### **Black Flags**
-
-* Given for serious rule-breaking, such as:
-  * Uploading illegal content.
-  * Breaking copyright laws in a way that causes big problems.
-* These cases are sent to Mesi Admin for review.
-
-#### What Happens Next:
-
-* Your account might be permanently banned.
-* Mesi will do a deep review of your account.
-* Mesi may contact law enforcement if needed.
-
-## Misusing the Report Button
-
-If someone misuses the "report content" button often, for example:
-
-* Reporting content they dislike just to bother someone.
-* Filing reports as a joke or without any real reason.
-* Repeatedly reporting the same content after it has already been reviewed and cleared by moderators.
-
-Consequences are:&#x20;
-
-1. Initial warning
-2. If the behavior continues - suspension of the reporting feature for 1 month
+<Tip>
+  **Pro-Tip:** If your account receives a Red Flag, the timer resets with every subsequent violation. Consistently following guidelines is the only way to restore your account to "Good Standing."
+</Tip>
