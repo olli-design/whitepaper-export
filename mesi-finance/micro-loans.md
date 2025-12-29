@@ -1,6 +1,6 @@
 ---
 title: "Micro-Loans"
-description: "Flexible financing for creators to scale their projects using \$MESI as collateral."
+description: "Flexible financing for creators to scale their projects using MESI as collateral."
 ---
 
 Mesi provides a simplified lending framework designed specifically for creators. This program allows you to unlock liquidity for production costs, equipment, or marketing without selling your underlying **\$MESI** holdings.
