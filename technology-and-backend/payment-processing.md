@@ -1,42 +1,85 @@
-# Payment Processing
+---
+title: "Payment Processing"
+description: "How Mesi handles multi-channel payments, instant creator settlements, and automated savings."
+---
 
-## How Payments Are Managed
+Mesi utilizes a high-speed financial engine that bridges legacy mobile payment systems with the native Creator Chain. This ensures that while fans enjoy a familiar checkout experience, creators benefit from the speed and utility of blockchain-based settlements.
 
-Payments within the Mesi platform are processed through two primary systems:
 
-* **Native Infrastructure:** Used for all web-app transactions, and dedicated to supporting $MESI transactions and blockchain-based activities.
-* **Google/ Apple in-app payments (IAP)**: Used for all mobile app transactions, where payments are processed only in fiat.&#x20;
 
-Regardless of payment method, all withdrawals from the platform are completed either in USDC or $MESI tokens.  Artists who choose $MESI receive a 10% bonus on their earnings, adding extra value for those invested in the platform.
+## Core Infrastructure
+
+Payments are managed through two distinct pipelines depending on the user environment:
+
+* **Native Infrastructure:** Powers the Web App and all blockchain-based activities. It handles **\$MESI** tokens, stablecoins, and direct smart contract interactions.
+* **Mobile In-App Payments (IAP):** Integrated with the Apple App Store and Google Play Store. These handle fiat transactions exclusively to comply with mobile ecosystem regulations.
+
+---
+
+## Creator Settlements
+
+Regardless of how a fan pays, Mesi provides a unified and incentivized settlement process for creators.
+
+<CardGroup cols={2}>
+  <Card title="Instant Payouts" icon="bolt">
+    Earnings are converted and credited to your wallet immediately upon transaction. *Note: Music creators receive monthly settlements.*
+  </Card>
+  <Card title="The \$MESI Bonus" icon="percentage">
+    Choose to receive your earnings in **\$MESI** tokens to receive an automatic **10% bonus** on your total payout.
+  </Card>
+</CardGroup>
+
+### Settlement Logistics
+If platform reserves are temporarily insufficient for an instant payout, the system mints temporary **\$MESI** tokens to ensure liquidity. To protect the economy, any resulting inflation is neutralized through:
+1.  **Reserve Burns:** Removing tokens from the internal treasury.
+2.  **Buybacks:** Purchasing tokens from the open market to restore equilibrium.
+
+---
 
 ## Payment Deductions
 
-Payments and listed base prices may include the following automatic deductions:
+To maintain a transparent ecosystem, all fees are applied and visible at the transaction layer:
 
-* **Mesi Commission Fees**&#x20;
-* **Licensing Rights Fees**&#x20;
-* **Blockchain Transaction Fees**&#x20;
+| Fee Type | Description |
+| :--- | :--- |
+| **Mesi Commission** | Standard platform fee for infrastructure and maintenance. |
+| **Licensing Fees** | Distributed to IP holders for content used in the transaction. |
+| **Network Fees** | Gas fees required to process the transaction on the Creator Chain. |
 
-These fees are transparently applied at the transaction layer.
+---
 
-## Instant Settlements for Creators
+## Asset Flexibility & Banking
 
-Creators benefit from instant payouts for any withdrawal (except from music creators, who receive their payments monthly)&#x20;
+Once funds are in your wallet, you have full control over your assets.
 
-It means that unlike on other similar portals with long withdrawal processing times and delays, on Mesi, all earnings are converted to $MESI / USDC tokens and credited to the creator’s wallet immediately.&#x20;
+* **Blockchain Mobility:** Transfer tokens to external wallets or add them to Liquidity Pools.
+* **Fiat Off-Ramp:** Connect your bank account to receive traditional currency payouts.
+* **Mesi Debit Card:** Spend your earnings instantly at any point-of-sale (POS) globally.
 
-If reserves for making such a payout are insufficient, additional $MESI tokens are minted temporarily. Any token supply surplus (temporary inflation) is neutralized by burning reserves or executing token buybacks to protect the ecosystem economy.\
-\
-Once withdrawn, creators can use the tokens for whatever purpose they want, e.g., trade them, add them to liquidity pools, or transfer them to other blockchain wallets.
 
-Creators can also connect their bank account to Mesi as well, and receive payouts in FIAT currency, or use funds instantly via the Mesi debit card - which gives creators fast and direct access to their assets.
 
-## Bitcoin savings accounts&#x20;
+---
 
-Creators can open free Bitcoin savings accounts; if they do, a portion of their earned tokens will be converted to BTC tokens upon withdrawal and moved to a dedicated, secure custodial account hosted by Mesi.&#x20;
+## Bitcoin Savings Accounts
 
-Thanks to that approach, users can keep accumulating BTC reserves over time, and additionally benefit from their potential long-term growth in the future.&#x20;
+Creators can automate their long-term wealth building through our integrated BTC savings feature.
 
-Creators also have the option to convert a portion of their $MESI withdrawals into Bitcoin (BTC).&#x20;
+<Steps>
+  <Step title="Enable Savings">
+    Open a free Bitcoin savings account within your Mesi profile.
+  </Step>
+  <Step title="Automatic Conversion">
+    Upon withdrawal, a pre-set portion of your **\$MESI** earnings is automatically converted to Bitcoin (BTC).
+  </Step>
+  <Step title="Secure Custody">
+    Your BTC is moved to a dedicated, high-security custodial account hosted by Mesi, allowing you to accumulate reserves over time.
+  </Step>
+</Steps>
 
-<figure><img src="../.gitbook/assets/Payment processing.png" alt=""><figcaption></figcaption></figure>
+<Frame caption="The Payment Processing Dashboard">
+  <img src="../.gitbook/assets/Payment processing.png" alt="Payment Processing Overview" />
+</Frame>
+
+<Tip>
+  **Pro-Tip:** Enabling the Bitcoin savings account combined with the 10% **\$MESI** settlement bonus is the most efficient way to maximize the long-term value of your creative output.
+</Tip>
