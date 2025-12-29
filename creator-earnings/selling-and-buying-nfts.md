@@ -1,89 +1,86 @@
-# Selling & buying NFT's
+---
+title: "Selling & Buying NFTs"
+description: "A guide to Mesi's transaction models, sales thresholds, and buyer protection protocols."
+---
+
+The Mesi marketplace is built on a foundation of safety and stability. By using automated escrow systems and tier-based thresholds, we ensure a fair environment for both creators and collectors.
+
+<Frame caption="Managing Active Listings and Sales Thresholds">
+  <img src="../.gitbook/assets/Selling & buying NFTs.png" alt="Sales Dashboard" />
+</Frame>
 
 ## Ways to Sell
 
-On the Mesi platform, you can sell your NFTs in **3 ways**:
+Creators can choose from three primary transaction models to move their assets.
 
-#### 1. Buy-Now
+<CardGroup cols={3}>
+  <Card title="Buy-Now" icon="bolt">
+    Set a fixed price for instant purchase. Best for high-frequency assets and standard content.
+  </Card>
+  <Card title="Auction" icon="gavel">
+    Initiate a competitive bidding process (7–35 days). Includes a **5-minute anti-sniping extension** to ensure fair winning bids.
+  </Card>
+  <Card title="Private Bidding" icon="handshake">
+    Label your NFT as "Open for Bids." Negotiate directly with buyers via acceptance, rejection, or counteroffers.
+  </Card>
+</CardGroup>
 
-* You set a price for your NFT, and buyers can purchase it instantly.
-* There’s no need for bidding or negotiating.
+---
 
-#### 2. Auction
+## Sales Thresholds & Limits
 
-* You start a bidding process where people compete to buy your NFT.
-* The auction lasts between **7 and 35 days** (longer times are available if you have a higher [account tier](https://docs.google.com/document/d/1j_1_GBLX02jDs8hRfUU0CSNB2oRfbSaex3oWP9c5-O0/edit?tab=t.odm0afullf6a)).
-* The person with the highest bid at the end wins.
-* If the last bid was made in the **previous 5 minutes**, the auction is extended by another 15 minutes
-* Mesi uses an **escrow system** to make sure the transaction is settled safely. Funds are held in custody and released only until the NFT is successfully transferred to the buyer (please also see the [Post-sale cooldown period](selling-and-buying-nfts.md#post-sale-cooldown-period) for additional escrow release rules)&#x20;
+To prevent market manipulation and manage platform liquidity, Mesi applies three thresholds that scale with your [User Tier](/gamification/user-tiers-and-creator-limits).
 
-#### 3. Private Bidding
+* **Monthly Turnover:** Total effective sales volume per month. Revenue exceeding this limit is held in an escrow vault and released at a rate of **1/30 per day**.
+* **Inventory Cap:** The maximum number of NFTs you can list for sale simultaneously.
+* **Listing Value Cap:** The total aggregate value of all active listings allowed at once.
 
-* Buyers can send private offers for NFTs that have been labeled by the owner as **'opened for bidding'**
-* As the owner, you can **accept, reject**, or make a **counteroffer**.
+---
 
-## Sales thresholds
+## The Post-Sale Lifecycle
 
-There are 3 thresholds related to NFT sales, which change proportionally to your account tier. &#x20;
+Mesi uses a mandatory "Cooling-Off" period to protect buyers from fraudulent or infringing content.
 
-#### Monthly turnover threshold
+<Steps>
+  <Step title="Immediate Transfer">
+    Upon purchase, the NFT ownership is transferred to the buyer's gallery immediately.
+  </Step>
+  <Step title="48-Hour Vault">
+    The purchase funds are held in a temporary vault while the platform audits the content for copyright or policy violations.
+  </Step>
+  <Step title="Verification & Release">
+    If no issues are detected, funds are released to the seller. If a violation is found, the transaction is reversed and the buyer is refunded.
+  </Step>
+</Steps>
 
-Applies to the effective sales volumes during a given month. If you go over that threshold, the extra revenue is put into an escrow vault and is gradually released back to you at a rate of **1/30 per day.** Money from subscriptions isn’t part of this limit.
+---
 
-#### Maximum Number of NFTs You Can Offer for Sale at Once
+## Policy Violations & Debt System
 
-This applies to all the ways to sell NFTs, like Buy-Now, Auction, or Private Bid. In the case of the latter, it applies to all NFTs that are marked as "For Sale" by the owner.
+If a violation is discovered *after* the 48-hour cooldown, Mesi enforces a strict "Debt" recovery model to compensate the aggrieved parties.
 
-#### Total Value of NFTs You Can Offer for Sale at Once
+<Warning>
+  **Debt & Payout Redirection:** If your account lacks sufficient funds to cover a post-sale refund, a "Debt" is assigned to your profile. Future revenue from any source (subscriptions, ads, etc.) will be automatically redirected to the Mesi Treasury to repay affected buyers via a FIFO (First-In, First-Out) queue.
+</Warning>
 
-This limit is about the total value of all the NFTs you’re offering for sale at the same time, no matter how many you list.
+### Rights of the Original Owner
+If an NFT is found to be a violation of another creator's intellectual property:
+1. The rightful owner chooses whether to **destroy** the infringing NFT or **transfer** it to their own gallery.
+2. The rightful owner is entitled to **all historical revenue** generated by the violating NFT. This amount is added to the violator's debt.
 
-<figure><img src="../.gitbook/assets/Selling &#x26; buying NFTs.png" alt=""><figcaption></figcaption></figure>
+---
 
-## Max sell price implications&#x20;
+## Upcoming Transaction Models
 
-The maximum selling price is the highest amount you can sell an NFT for. This price is based on a multiplier of the NFT's value, e.g., 0.75x or 2x the value. For more details, check out the "NFT Value & Price" section.
+We are constantly expanding our marketplace features. The following models are currently in development:
 
-In the case of Private Bids and Auctions, if you sell an NFT for more than the maximum selling price, the surplus will be put in a Mesi escrow vault.
+| Method | Description |
+| :--- | :--- |
+| **Blind Auction** | Highest hidden bid wins at the end of the duration. |
+| **Dutch Auction** | Price starts high and decreases until the first buyer accepts. |
+| **NFT Swaps** | Direct peer-to-peer asset trading. |
+| **Silent Sale** | First bidder to meet or exceed a hidden reserve price wins. |
 
-You can get the surplus back when your account tier reaches the level that would have been required not to generate that surplus in the first place.
-
-## Post-sale Cooldown Period
-
-When an NFT is sold, ownership is transferred to the buyer immediately. However, the purchase amount is held in a temporary vault for 48 hours.
-
-During this time, the platform verifies compliance with the content policy, including checks for copyright infringement, identity theft, or inappropriate content.
-
-* **If no issues are detected within 48 hours**, the funds are released to the seller.
-* **If violations are confirmed**, the transaction is canceled, and the funds are returned to the buyer.
-
-## Post-sale Violations
-
-If violations related to the sold NFT are found after the post-sale cooldown period, the refund might no longer be possible.&#x20;
-
-Mesi will attempt to freeze the amount needed for a refund in the violator's Mesi app account and associated Mesi wallets. However, their balances might not be enough to cover the loss.&#x20;
-
-If this is the case, a 'debt' will be assigned to the account, and if any revenue is being generated from this account in the future, it will be automatically redirected to the Mesi treasury, from which all aggrieved parties will be compensated (using FIFO order of debts registration). &#x20;
-
-## Violating NFT
-
-Depending on the situation and the nature of the violation, the violating NFT can either be destroyed or transferred to the rightful owner who has a Mesi App account. The choice is made by the aggrieved rightful owner.
-
-Regardless of the NFT's final destination, the rightful owner is entitled to receive all revenues generated by the violating NFT (if recoverable). This amount is added as a debt to the violator's account.
-
-## Account Suspension Policy
-
-The violator's account may be suspended during the investigation and reimbursement process, depending on the severity of the violation. However, suspensions must be handled carefully to avoid further unintentional harm to the affected parties.
-
-For example, suspending an account could stop revenue streams from subscriptions, which might otherwise be used to compensate affected parties. Hence, the Mesi team decides on suspensions on a case-by-case basis.
-
-## Upcoming Selling Methods&#x20;
-
-The following selling methods are also considered potential extensions of NFT sales models.
-
-| Blind Auction | The seller sets a hidden price. Buyers submit bids without seeing others’ offers. The highest bid wins when the auction ends. |
-| ------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| Dutch Auction | Prices decrease over time until a buyer makes a purchase.                                                                     |
-| NFT Swaps     | Allows users to swap NFTs.                                                                                                    |
-| Silent Sale   | The seller sets a fixed, hidden price. The first proposal meeting or exceeding this price wins.                               |
-
+<Note>
+  **Account Suspension:** Mesi handles suspensions on a case-by-case basis. We often keep accounts active even during investigations to ensure subscription revenue continues to flow toward compensating victims.
+</Note>
