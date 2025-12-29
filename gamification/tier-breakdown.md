@@ -1,4 +1,7 @@
-# Tier breakdown
+---
+title: "Tier Breakdown"
+description: "A detailed reference of requirements and benefits across Fan, Creator, and Financial tiers."
+---
 
 ## Fan tiers
 
