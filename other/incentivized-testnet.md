@@ -1,6 +1,6 @@
 ---
 title: "Incentivized Testnet"
-description: "Join the 'First on Mesi' program to stress-test our infrastructure and earn your share of the \$MESI airdrop."
+description: "Join the 'First on Mesi' program to stress-test our infrastructure and earn your share of the MESI airdrop."
 ---
 
 Before the Mesi ecosystem goes live on Mainnet, we are inviting our community to participate in the **Incentivized Testnet**. This period is critical for stress-testing our smart contracts and refining the user experience of the Mesi Web App.
