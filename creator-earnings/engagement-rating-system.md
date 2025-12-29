@@ -1,73 +1,73 @@
-# Engagement Rating System
+---
+title: "Engagement Rating System"
+description: "Understanding how Mesi calculates and weights user activity to drive fair revenue distribution."
+---
 
-The Engagement Rating System measures an NFT or gallery's ability to drive desired activity on the Mesi Platform and the value users bring to the app.  It drives **fair rewards & revenue distribution among the galleries and NFTs**.\
-\
-Please note that Engagement Ratings and [Valuation Mechanics](nft-value-and-price.md) are independent but may share overlapping variables.
+The **Engagement Rating System** is a backend framework that measures the value and impact of activity across the Mesi platform. Unlike traditional platforms where every "view" is equal, Mesi weights engagement based on the quality of the user, ensuring that **fair rewards and revenue distribution** flow to the most impactful galleries and NFTs.
 
-## How Engagement Rating Works
+<Note>
+  **System Independence:** While Engagement Ratings influence [Valuation Mechanics](/path-to-valuation), they are independent backend metrics and are not publicly visible to users.
+</Note>
 
-Each day, the system assigns points based on measurable activities and behaviors associated with individual NFTs or galleries, such as:
+## How Engagement is Measured
 
-* **Viewing Time:** How long users spend viewing the content.
-* **Interactions:** Likes, shares, comments, and other engagement metrics.
-* **Spending Behavior:** Purchases or tips associated with the content.
-* **Influence Points:** Owned or received points via delegation.
-* **Community and Social Metrics:** Contributions to the broader Mesi ecosystem.
+Every 24 hours, the system audits measurable behaviors to assign points. Key variables include:
 
-These ratings are internal backend metrics and are not visible to Mesi App users. They directly influence revenue and reward allocation for galleries and NFTs.
+* **Attention:** Total time spent viewing specific content.
+* **Active Interaction:** Likes, shares, comments, and direct responses.
+* **Economic Support:** Purchases, tips, and bidding activity.
+* **Influence Power:** Points received via delegation or community contribution.
 
-## Types of Engagement Ratings
+---
 
-#### 1. User Score
+## The Three-Tier Scoring Model
 
-The **User Score** evaluates individual user activity and engagement within the app. It distinguishes between low-value and high-value users based on variables such as:
+Mesi utilizes a hierarchical scoring model where user quality directly impacts the success of the content they consume.
 
-* The value of NFTs held by the user.
-* Amount of staked or locked Mesi tokens.
-* Other relevant behaviors and metrics.
+### 1. User Score
+The foundation of the system. It distinguishes between passive "scrollers" and high-value ecosystem participants.
 
-**Example:**
+* **High-Value Users:** Hold valuable NFTs, stake or lock $MESI tokens, and contribute meaningfully to the community.
+* **Low-Value Users:** Occasional viewers with minimal platform investment.
 
-**John:** A high-value user who spends significant time viewing content, interacts frequently, spends on NFTs, and holds a large amount of staked tokens. John receives **200 Engagement Rating points**, reflecting his active engagement and investment.\
-\
-**Paul:** A low-value user who occasionally views content, rarely interacts, and holds minimal tokens. Paul's score is significantly lower - he receives **5 Engagement Rating points**.
+> **Example:** > **John** (High-Value) receives **200 points** based on his staking and spending history.  
+> **Paul** (Low-Value) receives **5 points** due to minimal interaction and zero token holdings.
 
-#### 2. NFT Score
+### 2. NFT Score
+Measures the activity an individual NFT attracts, **weighted** by the User Scores of the fans interacting with it.
 
-<div><figure><img src="../.gitbook/assets/NFT performance.png" alt="" width="197"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Your NFT performance.png" alt="" width="197"><figcaption></figcaption></figure></div>
+<div className="flex gap-4">
+  <img src="../.gitbook/assets/NFT performance.png" alt="NFT Stats" width="200" />
+  <img src="../.gitbook/assets/Your NFT performance.png" alt="Performance Detail" width="200" />
+</div>
 
-The **NFT Score** measures the activity an individual NFT attracts, weighted by the User Scores of those interacting with it.
+**Calculation Example:** If John (200 pts) views an NFT for 2 minutes and Paul (5 pts) views it for 20 minutes:
+* John’s contribution: $2 \text{ mins} \times 200 = 400 \text{ points}$
+* Paul’s contribution: $20 \text{ mins} \times 5 = 100 \text{ points}$
+* **Total NFT Score: 500 points**
 
-**Example:** Alice has an NFT in her gallery. John spends 2 minutes viewing it, and Paul spends 20 minutes. Assuming 1 point per minute:
+### 3. Gallery Score
+The aggregate score of a creator's entire presence, combining specific NFT performance with general profile engagement.
 
-* John’s engagement contributes 400 points (2 minutes × 200 User Score).
-* Paul’s engagement contributes 100 points (20 minutes × 5 User Score).
+<div className="flex gap-4">
+  <img src="../.gitbook/assets/Gallery performance.png" alt="Gallery Overview" width="200" />
+  <img src="../.gitbook/assets/Gallery statistics.png" alt="Gallery Analytics" width="200" />
+</div>
 
-The total NFT Score is **500 points.**
+**Gallery Score components:**
+* **Sum of NFT Scores:** The total points earned by every individual NFT in the gallery.
+* **General Activity:** Time spent on the creator's bio, profile, and navigation, weighted by User Scores.
 
-#### 3. Gallery score
+---
 
-<div><figure><img src="../.gitbook/assets/Gallery performance.png" alt="" width="197"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Gallery statistics.png" alt="" width="197"><figcaption></figcaption></figure></div>
+## Visual Summary
 
-The **Gallery Score** is the sum of:
+The following chart illustrates the flow of engagement points from individual users to the broader gallery ecosystem.
 
-* Total scores of all NFTs within the gallery.
-* Activity generated by the gallery as a whole (not individual NFTs) is weighted by the User Scores of those interacting with it.
+<Frame caption="The Mesi Engagement Rating Architecture">
+  <img src="../.gitbook/assets/Engagement rating system.png" alt="Engagement Rating Mechanics" />
+</Frame>
 
-**Example**: Alice’s gallery contains several NFTs, with interactions from John and Paul:
-
-* John spends 2 minutes viewing one NFT and 5 minutes browsing the gallery, bio, and profile details.
-* Paul spends 20, 10, 5, and 1 minute on different NFTs.
-
-**Calculations:**
-
-* Total NFT Scores: (2 × 200) + (20 + 10 + 5 + 1 × 5) = 580 points.
-* Gallery Activity Score: 5 minutes × 200 = 1,000 points.
-
-Total Gallery Score: **1,580 points**.
-
-## Engagement Rating - visual summary
-
-Please refer to the chart below explaining the Engagement Rating mechanics:
-
-<figure><img src="../.gitbook/assets/Engagement rating system.png" alt=""><figcaption></figcaption></figure>
+<Tip>
+  **Creator Strategy:** To maximize your revenue, focus on attracting high-value users (Stakers and Collectors) rather than just high-volume traffic. A single interaction from a "Whale" can be worth 40x more than a standard view.
+</Tip>
