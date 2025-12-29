@@ -1,68 +1,70 @@
-# Dynamic interactions
+---
+title: "Dynamic Interactions"
+description: "Master real-time engagement through advanced live streaming modes, integrated tipping, and professional messaging tools."
+---
 
-## Live Streams
+Mesi provides a suite of dynamic tools that allow creators to pivot instantly between public broadcasting and high-value private interactions.
 
-You host live video or audio streams on the Mesi platform in four different ways:
+## Live Stream Modes
 
-#### Public session:
+Creators can host video or audio streams in four distinct formats to suit their community and monetization goals.
 
-* The Mesi platform has a **section** where you can find **all the public streams** currently happening.
-* **Anyone** with a Mesi account can join these streams, and there’s no time limit unless the streamer sets one.
+<CardGroup cols={2}>
+  <Card title="Public Session" icon="globe">
+    Visible in the global "Live" directory. Open to all Mesi users, these sessions are ideal for discovery and top-of-funnel growth.
+  </Card>
+  <Card title="Private Session" icon="lock">
+    Exclusively for subscribers or invited guests. Set entry rules based on subscription tiers or specific tip thresholds.
+  </Card>
+  <Card title="One-2-One Mode" icon="video">
+    Switch a live broadcast into a private 5–30 minute video call with a single viewer. Perfect for VIP requests and high-value tips.
+  </Card>
+  <Card title="Paid Session" icon="ticket">
+    Convert a stream to "Ticket-Only" mode. Sell limited-access tickets in real-time; non-ticket holders are automatically removed.
+  </Card>
+</CardGroup>
 
-#### Private Session:
+<Note>
+  All live interactions are governed by our [KYF (Know Your Fan) Policies](/path-to-kyf).
+</Note>
 
-* Private streams can **only be joined by subscribers, followers,** or people with a **special invite link** from the streamer.
-* Streamers can set specific **rules** for who can join, like having a certain subscription level or donating a set amount of tips.
-
-#### One-2-One Mode:
-
-* During a stream (either public or private), streamers can switch to a one-to-one session with a **single viewer.**
-  * Viewers can request this by giving a big tip or meeting the conditions set by the streamer.
-  * Streamers can also mention the required tip amount in the stream description to make it clear.
-* Streamer sets the time limit of One-on-one sessions - **from 5 to 30 minutes**.
-* Both the streamer and the viewer can see and hear each other in a private video call.
-* The streamer stays listed as active, so others know they are still live.
-* Viewers see a message saying the streamer is in a one-to-one session, with an estimated time for when it will end.
-
-#### Paid Session
-
-* While streaming, streamers can limit access to users holding “**tickets**.”
-* Tickets are sold during the stream in limited quantities at a **price** set by the streamer.
-* Streamers can switch to "ticket-only" mode at any time, once confirmed, **non-ticket holders are removed** from the session.
-
-**Note:** All live streams are subject to [KYF (Know Your Fan) policies.](know-your-fans-kyf-policy.md)
+---
 
 ## Tipping System
 
-The tipping system allows users to send tips to each other at any time.
+The tipping system is the heartbeat of Mesi's instant monetization. Fans can send support at any time across various interfaces.
 
-Tips can be sent in fiat currency, stablecoins, or $MESI tokens (available exclusively through the web app). For creators, if a tip is deposited in fiat or any cryptocurrency other than $MESI, the final amount received is converted into $MESI tokens.
+### Features & Availability
+* **No Upper Limit:** There are no maximum caps on tip sizes.
+* **Integrated Access:** Tipping buttons are available on profiles, inside the Messenger, and within every Live Stream window.
+* **Tipping URLs:** Creators can generate unique links to share on external social media to drive tips directly to their Mesi profile.
 
-#### Tipping features:
+<Warning>
+  **Currency Conversion:** While fans can tip in fiat or stablecoins, all non-$MESI tips are automatically converted and credited to the creator's balance in **$MESI tokens**.
+</Warning>
 
-* **No Upper Limit:** There is no maximum limit on the size of tips
-* **Tipping buttons** are available on:
-  * Creator's profile
-  * Messenger
-  * Live stream window
-* Creators can generate **tipping URLs** inviting anyone to access their profile and make a tip.
+---
 
-## Messenger
+## Messenger & Communication
 
-Mesi’s Messenger is a communication tool, designed to mimic the functionalities of well-known and widely used apps like Facebook Messenger, WhatsApp, Telegram, and others.&#x20;
+Mesi’s Messenger provides a familiar, high-performance chat experience similar to major global messaging apps, but with native Web3 integrations.
 
-<div><figure><img src="../.gitbook/assets/Messenger.png" alt="" width="197"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Messenger instant 2.png" alt="" width="197"><figcaption></figcaption></figure></div>
+<div className="flex gap-4">
+  <img src="../.gitbook/assets/Messenger.png" alt="Messenger List" width="200" />
+  <img src="../.gitbook/assets/Messenger instant 2.png" alt="Chat View" width="200" />
+</div>
 
-#### Key features:
+### Professional Tools
+* **Multimedia Sharing:** Seamlessly exchange images, videos, and high-res files.
+* **HD Calls:** Integrated high-definition voice and video calling for 1-on-1 connections.
+* **Group to Stream:** Instantly pivot a private group chat into a Live Stream with a single click.
+* **In-Chat Tipping:** Fans can send financial support without leaving the conversation thread.
 
-* **Message Box:** This lets users send messages to each other quickly and easily.
-* **Media Sharing:** Allows users to send pictures, videos, and other files in chats.
-* **Voice and Video Calls:** Gives users a way to talk face-to-face or voice-to-voice for a more personal connection.
-* **Tipping Button:** Fans can send tips to creators directly during their chats.
-* **Group Chats:** Let multiple people join the same chat to talk and share ideas together.
-* **Switch to live stream:** private group conversation can be easily switched to live stream with a single click
+---
 
-## Creator moderation and user rights
+## Safety & Moderation
 
-* **Blocking Users:** Creators can stop users from messaging them if needed.
-* **Abuse Prevention:** If a user feels they were blocked unfairly, like being blocked right after paying for a private chat, they can report it. These reports are reviewed to make sure everyone is treated fairly.
+We provide creators with the tools to maintain a safe environment while protecting fan rights.
+
+* **Creator Controls:** Instantly block users or restrict messaging permissions based on user behavior or account status.
+* **Escrow Protection:** To ensure fairness, fans can report instances of "unjust blocking" (e.g., being blocked immediately after a paid interaction). These reports are audited by Mesi to maintain platform integrity.
