@@ -1,45 +1,71 @@
-# BTC Savings Accounts
+---
+title: "BTC Savings Accounts"
+description: "Automate your wealth accumulation by converting platform earnings into long-term Bitcoin reserves."
+---
 
-As mentioned in [Payment and Processing](../technology-and-backend/payments-and-payouts.md), users can convert a portion of their $MESI profits instead of instant payouts into **BTC**, which is then deposited into a dedicated savings account.
+Mesi allows creators to hedge against volatility and build long-term value by bridging native platform earnings with the world's premier digital asset. As detailed in our [Payments & Payouts](/technology-and-backend/payments-and-payouts) section, users can opt-in to a high-security BTC savings framework.
 
-<figure><img src="../.gitbook/assets/BTC Savings Accounts.png" alt=""><figcaption></figcaption></figure>
 
-## How BTC Savings Work
 
-Users can allocate a portion of their $MESI token payouts to a BTC savings account.
+---
 
-* After an instant payout in $MESI tokens, users can choose to convert a portion into BTC.
-* BTC is purchased automatically via an external exchange.
-* Acquired BTC is held securely in off-chain savings accounts managed by Mesi.
+## The Savings Mechanism
 
-Users then gradually unlock their Bitcoin holdings over time.
+The BTC Savings system operates as a secondary layer following your instant **\$MESI** payout. This ensure you have immediate liquidity while still building a "HODL" position.
 
-## Conversion Limits
+<Steps>
+  <Step title="Allocate Earnings">
+    Define a percentage of your **\$MESI** payouts to be automatically converted into Bitcoin.
+  </Step>
+  <Step title="Automated Conversion">
+    Mesi executes the trade via integrated institutional exchanges to secure the best market rate at the time of withdrawal.
+  </Step>
+  <Step title="Secure Custody">
+    The acquired BTC is moved to a dedicated, off-chain custodial vault managed by Mesi for maximum security.
+  </Step>
+</Steps>
 
-BTC conversions are subject to two important limits:
+---
 
-* **Monthly Limit:** Up to 5% of last month's earnings can be converted into BTC. (A fixed conversion limit applies to all users during the first month after launch.)
-* **Tier-Based Maximums:** Higher user tiers allow for larger BTC savings allocations, based on USDC-equivalent values.
+## Conversion & Tier Limits
 
-## Unlocking BTC Balances
+To ensure sustainable liquidity and fair access, BTC conversions are governed by the following constraints:
 
-BTC saved in the Mesi savings system is **unlocked gradually**. Claimable balances increase by 1/60 each day. Full BTC withdrawal rights are obtained after 60 days of accumulation.
+| Limit Type | Description |
+| :--- | :--- |
+| **Monthly Cap** | Up to **5%** of your previous month's total earnings can be converted. |
+| **Tier Maximums** | Your [Account Tier](/gamification/user-tiers-and-creator-limits) determines the total USDC-equivalent value you can hold in the savings pool. |
+| **Genesis Rule** | During the first 30 days post-launch, a fixed global conversion limit applies to all users. |
 
-## Yield Generation and Additional Profits
+---
 
-While held by Mesi, the BTC savings pool is actively managed to generate yield through:
+## Unlocking & Liquidity
 
-* Staking,
-* Lending,
-* Web3 liquidity provisioning and other decentralized finance (DeFi) opportunities.
+Bitcoin reserves are subject to a **Gradual Release Schedule** to encourage long-term holding and platform stability.
 
-A portion of this yield is returned to users by increasing their BTC savings balances over time.
 
-**Note:** Mesi does not guarantee fixed interest rates. Returns vary based on market conditions and available Web3 opportunities.
 
-## Spending with Off-Chain BTC (mBTC)
+* **Daily Accrual:** Claimable balances increase by **1/60th** every 24 hours.
+* **Full Maturity:** Users obtain 100% withdrawal rights to their accumulated BTC after **60 days** of continuous holding.
 
-Users can also spend unlocked portions of their BTC within the Mesi app:
+---
 
-* Payments made with mBTC (off-chain Bitcoin equivalent) are based on the proportion of unlocked balance.
-* This enables flexible in-app spending while savings continue to grow.
+## Yield Generation (mBTC)
+
+While your Bitcoin is held within the Mesi vault, it isn't sitting idle. Mesi employs institutional-grade DeFi strategies to generate additional yield on the total pool.
+
+* **DeFi Strategies:** Yield is generated through staking, lending, and liquidity provisioning.
+* **Balance Growth:** A portion of these earnings is redistributed back to users, effectively increasing your BTC balance over time.
+* **mBTC Utility:** You can spend your **unlocked** BTC portions instantly within the Mesi app using **mBTC** (Mesi’s off-chain BTC equivalent).
+
+<Warning>
+  **Market Risk:** Mesi does not guarantee fixed interest rates. Yield returns vary based on DeFi market conditions and network opportunities.
+</Warning>
+
+<Frame caption="The BTC Savings Dashboard">
+  <img src="../.gitbook/assets/BTC Savings Accounts.png" alt="BTC Savings Management" />
+</Frame>
+
+<Tip>
+  **Pro-Tip:** Enabling BTC savings is a "set-and-forget" strategy. By allocating just 5% of your **\$MESI** payouts monthly, you can build a significant Bitcoin reserve without ever needing to use an external exchange.
+</Tip>
