@@ -1,135 +1,100 @@
-# Creator Chain and Proof of Stake (PoS)
+---
+title: "Creator Chain & PoS"
+description: "Technical architecture of the Mesi blockchain infrastructure and its path to full decentralization."
+---
 
-## Blockchain Technology
+Mesi utilizes a high-performance blockchain environment designed for scalability, sub-second finality, and cost-efficiency. By leveraging an established Layer 1 or Layer 2 Proof of Stake (PoS) network, Mesi inherits robust security while focusing on rapid product innovation.
 
-Mesi’s infrastructure is designed to operate on a high-performance blockchain environment that ensures scalability, cost-efficiency, and robust developer support. Rather than building a proprietary consensus layer from inception, Mesi will leverage an established Layer 1 or Layer 2 network whose technical and ecosystem characteristics best align with the platform’s needs.
 
-Key considerations guiding the selection include transaction throughput and finality, cost structure, smart contract flexibility, maturity of development tools, wallet interoperability, and the broader ecosystem’s liquidity and user base. This approach enables Mesi to prioritize product innovation and user experience while relying on a proven and secure base layer.
 
-## Proof of Stake and Validator Architecture&#x20;
-
-Proof of Stake (PoS) is the consensus mechanism underlying most modern blockchain networks. Validators are selected to create blocks based on the amount of cryptocurrency they stake as collateral. This economic model aligns validator incentives with network security, as dishonest behavior results in loss of staked assets.
-
-PoS networks maintain security through distributed validation—independent operators collectively validate transactions, propose blocks, and reach consensus on chain state. Validators earn rewards through transaction fees and protocol token issuance. This architecture requires substantially less energy than alternative consensus mechanisms.
-
-Initially, Mesi will deploy smart contracts on an established PoS blockchain, inheriting security from that network's validator set.
-
-## Node Operator Program and Decentralization Stages
-
-As the platform matures, Mesi will introduce node operators who stake a defined amount of $MESI tokens to participate in infrastructure operation. Node operators will be progressively entrusted with operating Mesi's infrastructure through the following transition stages:
-
-**Stage 1:** Decentralization of application layer (off-chain infrastructure)
-
-**Stage 2**: Decentralization of the indexing layer (bridge between off-chain and on-chain)
-
-**Stage 3**: Decentralization of settlement layer (on-chain infrastructure) - once the Mesi native blockchain is developed.&#x20;
-
-Each stage will be preceded by the development of native infrastructure for that specific layer. In exchange for their participation and staked capital, node operators will earn rewards. The particular structure and timeline for this program will be determined based on platform scaling requirements and infrastructure maturity.
+---
 
 ## System Architecture
 
-Mesi's infrastructure consists of four layers:
+Mesi’s infrastructure is categorized into four distinct layers, separating high-frequency application data from secure on-chain settlement.
 
-<figure><img src="../.gitbook/assets/Blockchain.png" alt="" width="375"><figcaption></figcaption></figure>
+<Frame caption="Mesi Four-Layer Infrastructure">
+  <img src="../.gitbook/assets/Blockchain.png" alt="Mesi Infrastructure Layers" />
+</Frame>
 
-## Settlement Layer (Blockchain)
+<CardGroup cols={2}>
+  <Card title="Settlement Layer" icon="link">
+    **On-Chain (Blockchain)**
+    Handles smart contracts, **\$MESI** balances, NFT metadata hashes, and governance records.
+  </Card>
+  <Card title="Indexing Layer" icon="bridge">
+    **The Bridge**
+    Synchronizes blockchain states with the application database, monitoring for events like NFT mints or transfers.
+  </Card>
+  <Card title="Application Layer" icon="server">
+    **Off-Chain**
+    Handles heavy computation, media storage (object storage), and API services for millisecond response times.
+  </Card>
+  <Card title="Accessibility Layer" icon="mobile-screen-button">
+    **User Experience**
+    The front-end web and mobile interfaces, authentication flows, and content management tools.
+  </Card>
+</CardGroup>
 
-The settlement layer consists of smart contracts on the selected PoS blockchain. This layer stores:
+---
 
-* Wallet addresses and authentication credentials
-* NFT metadata for content ownership (token IDs, creator addresses, timestamps)
-* $MESI token balances and transaction records
-* Aggregated records of user interactions (with each other and with the platform)&#x20;
-* Governance functionalities and data records
+## Progressive Decentralization Roadmap
 
-The settlement layer does not store media files, full-text content, social engagement metrics, or real-time interaction data due to on-chain storage costs.
+Mesi follows a staged approach to decentralizing its infrastructure, ensuring platform stability before transitioning control to the community.
 
-## Application Layer (Off-Chain)
+<Steps>
+  <Step title="Stage 1: Decentralized Application Layer">
+    Opening the off-chain infrastructure (API services and storage nodes) to third-party operators.
+  </Step>
+  <Step title="Stage 2: Decentralized Indexing">
+    Transitioning the bridge between on-chain and off-chain data to a distributed indexing protocol.
+  </Step>
+  <Step title="Stage 3: Decentralized Settlement">
+    Launching the native Mesi Creator Chain, where node operators who stake **\$MESI** tokens validate and settle all on-chain transactions.
+  </Step>
+</Steps>
 
-The application layer handles computational and storage requirements:
+---
 
-* Relational databases for user profiles, social graphs, and content metadata
-* Object storage for media files
-* API services for business logic
-* Notification systems
-* Analytics infrastructure
+## Gasless Experience & Account Abstraction
 
-This layer operates off-chain because response times must be measured in milliseconds rather than the seconds required for blockchain consensus.
+Mesi removes the "crypto barrier" by abstracting blockchain complexities away from the end-user.
 
-## Indexing Layer (Bridge)
+* **Smart Contract Wallets:** Every user receives a wallet automatically upon signup (social login via Google/Apple).
+* **Sponsored Gas:** Mesi covers gas fees for standard actions (posting, tipping, minting) up to a monthly limit.
+* **Flexible Overages:** Once limits are reached, users can pay fees in **\$MESI** (automatically converted) or switch to full self-custody.
 
-The indexing layer synchronizes blockchain state with the application database. This middleware monitors the blockchain for Mesi-related events (NFT mints, token transfers, ownership changes) and updates the application database accordingly.
 
-Implementation options include decentralized indexing protocols or managed API services. When a creator mints a content NFT, the indexer detects the blockchain event and updates the application database within seconds.
 
-## Accessibility Layer (User Experience)
+---
 
-The accessibility layer encompasses user-facing interfaces:
+## Content Ownership & Privacy
 
-* Web and mobile applications
-* Account creation and authentication flows
-* Payment interfaces
-* Content management tools
+Mesi balances the **permanence** of blockchain with the **privacy** requirements of modern data laws (GDPR).
 
-This layer operates off-chain and under centralized control.
+### The Upload Process
+1.  **Storage:** Media is stored in globally distributed cloud object storage.
+2.  **Hashing:** A unique cryptographic hash is generated for the file.
+3.  **Minting:** An NFT is minted on-chain containing the hash and licensing terms.
+4.  **Provenance:** Ownership is permanently recorded in the creator's wallet.
 
-## Gasless Transactions and Account Abstraction
+### Content Removal & Rights
+Users retain the right to delete media files or hide them. While the media file is removed from the delivery network, the **NFT record and its hash remain on the blockchain** as a permanent, immutable proof of historical creation and provenance.
 
-Mesi allows users to interact with the platform without dealing with crypto wallets, gas fees, or blockchain details unless they want to.
+---
 
-Each user automatically gets a smart contract wallet when they sign up. They can log in using a Google or Apple account or connect their existing crypto wallet.
+## Privacy & Zero-Knowledge Proofs (ZKP)
 
-For normal actions like posting, minting NFTs, or receiving tips, Mesi covers gas fees up to a monthly limit, so the user does not have to spend any blockchain currency for interactions or approve any activities at the wallet level.&#x20;
+Mesi implements Zero-Knowledge technologies to protect user identities while maintaining a verifiable ecosystem.
 
-Once that limit is reached, users can either pay fees with $MESI tokens (automatically converted to the network’s gas currency) or switch to full self-custody and handle gas payments themselves.
+* **Public Data:** Wallet addresses, NFT ownership, and transaction histories.
+* **Private Data:** Real-world identities, social connections, and engagement metrics.
+* **ZKP Utility:** Allows the platform to verify user credentials or age-gates without the user needing to reveal the underlying private data.
 
-## Content Ownership and Storage
+<Note>
+  **Node Operator Program:** As Mesi moves into Phase 3, community members will be able to stake **\$MESI** to operate nodes, earning rewards for providing the computational power that fuels the Creator Chain.
+</Note>
 
-Media files are stored in a cloud infrastructure optimized for global delivery. Ownership and provenance are recorded on-chain.
-
-Upload Process:
-
-1. User submits media through the application
-2. Content files are kept in a scalable storage system and made available to users via a global network of delivery servers
-3. A cryptographic hash is computed for the file content
-4. NFT is minted on-chain with metadata: hash, creator address, timestamp, licensing terms
-5. NFT ownership is transferred to the creator's wallet
-
-The NFT metadata includes creator information, a cryptographic hash of content, storage location reference, creation timestamp, licensing terms, and more. This enables verification that a specific creator produced specific content at a specific time.
-
-**Content Removal:**
-
-Users can delete their media files, hide them from the platform, and block others from accessing them — except in certain cases (for example, legal requirements or users who already paid for lifetime access).
-
-However, the NFT record on the blockchain and its cryptographic hash remain permanent. This keeps a verifiable record of when and by whom the content was created, without exposing the content itself - even if the file itself is no longer available.
-
-All personal data is stored off the blockchain and can be fully deleted to meet privacy laws. The blockchain only keeps anonymous information like wallet addresses and file hashes.
-
-## Decentralization Roadmap
-
-**Phase 1:** Centralized Operations
-
-Initial launch operates under centralized control. Mesi manages infrastructure, sponsors transaction fees, stores content on commercial platforms, and maintains administrative control over smart contracts. This enables rapid iteration and immediate fixes.
-
-**Phase 2:** Progressive Decentralization
-
-As the platform demonstrates stability, specific components transition to distributed operation. Storage infrastructure may migrate to decentralized networks pending performance and economic evaluation. Smart contract governance transitions from individual administrative keys to multi-signature schemes, eventually moving toward community governance. The node operator program launches, enabling community members who stake $MESI to co-create decentralized infrastructure and participate in its decentralized governance.
-
-**Phase 3:** Distributed Operation
-
-Long-term decentralization goals include distributed content storage, community-operated indexing infrastructure, and token-holder governance.
-
-## Transparency & Zero-knowledge proofs
-
-Blockchain data, such as wallet addresses, NFT ownership records, transaction history, and token balances, is publicly visible, ensuring full transparency and verifiable ownership.
-
-Personal information—such as user identities, media files, social connections, and engagement data—is stored off-chain under strict privacy and security controls.
-
-Mesi implements zero-knowledge technologies to protect user privacy, allowing verification of ownership and credentials without revealing identity or exposing underlying data.
-
-\
-\
-\
-\
-\
-<br>
+<Tip>
+  **For Developers:** Mesi’s indexing layer provides a GraphQL-based API for querying on-chain creator data with near-zero latency.
+</Tip>
